@@ -4,7 +4,7 @@ tailwind.config = {
     theme: {
         extend: {
             colors: {
-                "primary": "#0ea5e9", // Teal/Blue for Tech
+                "primary": "#5048e5", // Teal/Blue for Tech
                 "background-light": "#f8fafc",
                 "background-dark": "#0f172a",
             },
