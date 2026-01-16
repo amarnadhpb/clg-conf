@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>ICISST 2026 - Intelligent Systems & Sustainable Technologies</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#121117] dark:text-white transition-colors duration-300">
+    
+    <header class="fixed top-0 left-0 right-0 z-50 glass">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="h-12 w-auto">
+                    <img src="logo.png" alt="Vidya Academy Logo" class="h-full w-auto object-contain">
+                </div>
+                <div class="hidden sm:block leading-tight">
+                    <span class="block text-lg font-extrabold tracking-tight">ICISST 2026</span>
+                    <span class="block text-[10px] uppercase font-bold opacity-60">Vidya Academy of Science & Technology</span>
+                </div>
+            </div>
+
+            <nav class="hidden xl:flex items-center gap-6">
+                <a class="text-sm font-medium hover:text-primary transition-colors" href="#about">About</a>
+                <a class="text-sm font-medium hover:text-primary transition-colors" href="#tracks">Tracks</a>
+                <a class="text-sm font-medium hover:text-primary transition-colors" href="#dates">Dates</a>
+                <a class="text-sm font-medium hover:text-primary transition-colors" href="#speakers">Speakers</a>
+                <a class="text-sm font-medium hover:text-primary transition-colors" href="#schedule">Schedule</a>
+                <a class="text-sm font-medium hover:text-primary transition-colors" href="#committee">Committee</a>
+                <button class="bg-primary text-white px-5 py-2 rounded-lg font-bold text-sm hover:opacity-90 transition-opacity shadow-lg shadow-primary/25">
+                    Register Now
+                </button>
+            </nav>
+
+            <button id="mobile-menu-btn" class="xl:hidden p-2 text-2xl">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden xl:hidden absolute top-20 left-0 w-full glass border-t border-slate-200 dark:border-white/10 p-6 flex-col gap-4 shadow-xl h-screen overflow-y-auto pb-32">
+            <a class="text-base font-medium hover:text-primary" href="#about">About Conference</a>
+            <a class="text-base font-medium hover:text-primary" href="#tracks">Tracks</a>
+            <a class="text-base font-medium hover:text-primary" href="#dates">Important Dates</a>
+            <a class="text-base font-medium hover:text-primary" href="#speakers">Speakers</a>
+            <a class="text-base font-medium hover:text-primary" href="#schedule">Schedule</a>
+            <a class="text-base font-medium hover:text-primary" href="#committee">Committee</a>
+            <a class="text-base font-medium hover:text-primary" href="#authors">Author Guidelines</a>
+            <button class="bg-primary text-white w-full py-3 rounded-lg font-bold">Register Now</button>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        <section class="relative overflow-hidden py-20 px-6">
+            <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
+                <div class="flex-1 space-y-8">
+                    <div class="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
+                        <span class="relative flex h-2 w-2">
+                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+                        </span>
+                        Call for Papers Open
+                    </div>
+                    <h1 class="text-4xl md:text-6xl font-black leading-tight tracking-tighter">
+                        Intelligent Systems & <br/>
+                        <span class="text-primary">Sustainable Technologies</span>
+                    </h1>
+                    <p class="text-lg opacity-80 max-w-xl leading-relaxed">
+                        <strong>June 26-27, 2026</strong> | Vidya Academy of Science and Technology. <br>
+                        Join the premier international conference exploring the convergence of AI, Engineering, and Sustainability.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <button class="bg-primary text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-lg hover:shadow-primary/20 transition-all">
+                            Submit Paper
+                        </button>
+                        <button class="bg-white dark:bg-white/5 border border-slate-200 dark:border-white/10 px-8 py-4 rounded-xl font-bold text-lg hover:bg-slate-50 transition-colors">
+                            Download Brochure
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="flex-1 w-full relative">
+                    <div class="w-full aspect-video rounded-2xl overflow-hidden shadow-2xl relative bg-slate-200 dark:bg-slate-800">
+                        <img alt="Conference Venue" class="w-full h-full object-cover opacity-80" src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2070&auto=format&fit=crop"/>
+                        <div class="absolute inset-0 bg-gradient-to-t from-background-dark/90 to-transparent flex items-end p-8">
+                            <div class="w-full grid grid-cols-4 gap-2 sm:gap-4 glass p-4 sm:p-6 rounded-xl border border-white/20">
+                                <div class="text-center">
+                                    <div class="text-xl sm:text-2xl font-black" id="days">00</div>
+                                    <div class="text-[10px] uppercase font-bold opacity-60">Days</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-xl sm:text-2xl font-black" id="hours">00</div>
+                                    <div class="text-[10px] uppercase font-bold opacity-60">Hours</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-xl sm:text-2xl font-black" id="minutes">00</div>
+                                    <div class="text-[10px] uppercase font-bold opacity-60">Mins</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-xl sm:text-2xl font-black" id="seconds">00</div>
+                                    <div class="text-[10px] uppercase font-bold opacity-60">Secs</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-24 px-6 bg-white dark:bg-white/5 transition-colors" id="about">
+            <div class="max-w-7xl mx-auto">
+                <div class="flex flex-col md:flex-row gap-16 items-start">
+                    <div class="md:w-1/2">
+                        <h2 class="text-primary font-bold uppercase tracking-widest text-sm mb-4">About ICISST 2026</h2>
+                        <h3 class="text-3xl md:text-4xl font-black mb-6">Innovating for a Greener, Smarter Future</h3>
+                        <p class="text-lg opacity-70 leading-relaxed mb-6">
+                            The <strong>International Conference on Intelligent Systems and Sustainable Technologies</strong> aims to bring together leading academic scientists, researchers, and research scholars to exchange and share their experiences and research results.
+                        </p>
+                        <p class="text-lg opacity-70 leading-relaxed mb-6">
+                            Organized by <strong>Vidya Academy of Science and Technology</strong>, this event serves as a premier interdisciplinary platform for practitioners and educators to present and discuss the most recent innovations, trends, and concerns in the fields of AI and Engineering.
+                        </p>
+                    </div>
+                    <div class="md:w-1/2 grid grid-cols-2 gap-4">
+                         <div class="p-6 bg-slate-50 dark:bg-white/5 rounded-2xl border-l-4 border-primary">
+                            <div class="text-3xl font-black text-primary mb-1">4</div>
+                            <p class="text-sm font-medium opacity-60 uppercase tracking-wide">Key Tracks</p>
+                        </div>
+                        <div class="p-6 bg-slate-50 dark:bg-white/5 rounded-2xl border-l-4 border-primary">
+                            <div class="text-3xl font-black text-primary mb-1">2</div>
+                            <p class="text-sm font-medium opacity-60 uppercase tracking-wide">Days of Innovation</p>
+                        </div>
+                        <div class="p-6 bg-slate-50 dark:bg-white/5 rounded-2xl border-l-4 border-primary">
+                            <div class="text-3xl font-black text-primary mb-1">2026</div>
+                            <p class="text-sm font-medium opacity-60 uppercase tracking-wide">June 26-27</p>
+                        </div>
+                        <div class="p-6 bg-slate-50 dark:bg-white/5 rounded-2xl border-l-4 border-primary">
+                            <div class="text-3xl font-black text-primary mb-1">Thrissur</div>
+                            <p class="text-sm font-medium opacity-60 uppercase tracking-wide">Kerala, India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 px-6 bg-background-light dark:bg-background-dark" id="about-college">
+            <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-12 items-center">
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1000&auto=format&fit=crop" alt="Vidya Academy Campus" class="rounded-2xl shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-primary font-bold uppercase tracking-widest text-sm mb-4">Host Institute</h2>
+                    <h3 class="text-3xl md:text-4xl font-black mb-6">Vidya Academy of Science & Technology</h3>
+                    <p class="text-lg opacity-70 leading-relaxed mb-6">
+                        Vidya Academy of Science & Technology (VAST) is a state-of-the-art engineering college conforming to international standards. This premier institution is approved by AICTE and affiliated with APJ Abdul Kalam Technological University.
+                    </p>
+                    <div class="flex gap-4">
+                         <a href="#" class="text-primary font-bold hover:underline">Visit Website &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-24 px-6 bg-white dark:bg-white/5" id="tracks">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-black mb-4">Conference Tracks</h2>
+                    <p class="text-lg opacity-60 max-w-2xl mx-auto">ICISST 2026 invites research contributions in the following core areas.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="p-8 bg-white dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-2xl hover:border-primary/50 transition-all hover:shadow-xl group">
+                        <div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+                            <span class="material-symbols-outlined text-3xl">psychology</span>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">AI & Machine Learning</h4>
+                        <p class="text-sm opacity-60 leading-relaxed">Deep learning, generative models, neural networks, and ethical AI applications.</p>
+                    </div>
+                    <div class="p-8 bg-white dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-2xl hover:border-primary/50 transition-all hover:shadow-xl group">
+                        <div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+                            <span class="material-symbols-outlined text-3xl">eco</span>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Sustainable Technologies</h4>
+                        <p class="text-sm opacity-60 leading-relaxed">Green computing, renewable energy integration, and smart environment solutions.</p>
+                    </div>
+                    <div class="p-8 bg-white dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-2xl hover:border-primary/50 transition-all hover:shadow-xl group">
+                        <div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+                            <span class="material-symbols-outlined text-3xl">model_training</span>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Modeling & Simulation</h4>
+                        <p class="text-sm opacity-60 leading-relaxed">Analysis of engineering systems, digital twins, and predictive modeling.</p>
+                    </div>
+                    <div class="p-8 bg-white dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-2xl hover:border-primary/50 transition-all hover:shadow-xl group">
+                        <div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+                            <span class="material-symbols-outlined text-3xl">precision_manufacturing</span>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Automatic & Control Systems</h4>
+                        <p class="text-sm opacity-60 leading-relaxed">Robotics, automation, industrial IoT, and embedded control systems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 px-6 bg-background-light dark:bg-background-dark" id="dates">
+            <div class="max-w-5xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-black mb-4">Important Dates</h2>
+                    <p class="opacity-60">Mark your calendars for these deadlines.</p>
+                </div>
+                <div id="dates-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    </div>
+            </div>
+        </section>
+
+        <section class="py-20 px-6 bg-black text-white" id="video-section">
+            <div class="max-w-6xl mx-auto text-center">
+                <h2 class="text-3xl font-black mb-8">Conference Teaser</h2>
+                <div class="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl border border-white/20">
+                    <iframe class="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=placeholder" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 px-6 bg-white dark:bg-white/5" id="speakers">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-black mb-4">Keynote Speakers</h2>
+                    <p class="opacity-60">Distinguished experts from around the globe.</p>
+                </div>
+                <div id="speakers-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    </div>
+            </div>
+        </section>
+
+        <section class="py-24 px-6 bg-background-light dark:bg-background-dark" id="schedule">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-black mb-4">Event Schedule</h2>
+                    <div class="flex justify-center gap-4 mt-8">
+                        <button class="schedule-btn active px-6 py-2 bg-primary text-white rounded-full font-bold" data-day="1">Day 1 (June 26)</button>
+                        <button class="schedule-btn px-6 py-2 bg-slate-100 dark:bg-white/5 rounded-full font-bold hover:bg-slate-200" data-day="2">Day 2 (June 27)</button>
+                    </div>
+                </div>
+                
+                <div id="schedule-day-1" class="schedule-content space-y-6">
+                    <div class="flex gap-6 p-6 bg-slate-50 dark:bg-white/5 rounded-2xl items-start border-l-4 border-primary">
+                        <div class="w-24 shrink-0 text-right">
+                            <div class="text-xl font-black">09:00</div>
+                            <div class="text-xs font-bold opacity-40 uppercase">AM</div>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-bold mb-1">Inauguration & Keynote</h4>
+                            <p class="text-sm opacity-60 mb-3">Main Auditorium</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-6 p-6 bg-white dark:bg-white/10 rounded-2xl items-start border-l-4 border-slate-200 dark:border-white/10">
+                        <div class="w-24 shrink-0 text-right">
+                            <div class="text-xl font-black">11:00</div>
+                            <div class="text-xs font-bold opacity-40 uppercase">AM</div>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-bold mb-1">Technical Session: AI & ML</h4>
+                            <p class="text-sm opacity-60 mb-3">Paper Presentations - Track 1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="schedule-day-2" class="schedule-content space-y-6 hidden">
+                    <div class="flex gap-6 p-6 bg-slate-50 dark:bg-white/5 rounded-2xl items-start border-l-4 border-primary">
+                        <div class="w-24 shrink-0 text-right">
+                            <div class="text-xl font-black">09:30</div>
+                            <div class="text-xs font-bold opacity-40 uppercase">AM</div>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-bold mb-1">Workshop on Sustainable Tech</h4>
+                            <p class="text-sm opacity-60 mb-3">Seminar Hall</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-6 p-6 bg-white dark:bg-white/10 rounded-2xl items-start border-l-4 border-slate-200 dark:border-white/10">
+                        <div class="w-24 shrink-0 text-right">
+                            <div class="text-xl font-black">03:00</div>
+                            <div class="text-xs font-bold opacity-40 uppercase">PM</div>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-bold mb-1">Valedictory Function</h4>
+                            <p class="text-sm opacity-60 mb-3">Main Auditorium</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 px-6 bg-white dark:bg-white/5" id="committee">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-black mb-4">Organising Committee</h2>
+                </div>
+                <div class="flex justify-center gap-4 mb-12">
+                    <button class="committee-tab active px-6 py-2 bg-primary text-white rounded-full font-bold" onclick="switchCommittee('organizing')">Organising Team</button>
+                    <button class="committee-tab px-6 py-2 bg-slate-100 dark:bg-white/5 rounded-full font-bold hover:bg-slate-200" onclick="switchCommittee('advisory')">Advisory Board</button>
+                </div>
+
+                <div id="organizing-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    </div>
+
+                <div id="advisory-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6 hidden">
+                    </div>
+            </div>
+        </section>
+
+        <section class="py-20 px-6 bg-background-light dark:bg-background-dark" id="registration">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-black mb-4">Registration Plans</h2>
+                    <p class="opacity-60">Early bird registration closes February 24, 2026</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                    <div class="p-8 bg-white dark:bg-white/5 rounded-2xl border border-slate-200 dark:border-white/10 hover:border-primary transition-all hover:-translate-y-2 shadow-xl">
+                        <h3 class="text-xl font-bold mb-2">Student / Scholar</h3>
+                        <div class="text-4xl font-black text-primary mb-6">₹3,000<span class="text-sm text-gray-500 font-normal">/author</span></div>
+                        <ul class="space-y-3 opacity-70 mb-8 text-sm">
+                            <li class="flex gap-2"><span class="text-primary">✓</span> Access to all sessions</li>
+                            <li class="flex gap-2"><span class="text-primary">✓</span> Conference Kit</li>
+                            <li class="flex gap-2"><span class="text-primary">✓</span> Lunch & Refreshments</li>
+                        </ul>
+                        <button class="w-full py-3 rounded-xl border border-primary text-primary font-bold hover:bg-primary hover:text-white transition-colors">Register</button>
+                    </div>
+
+                    <div class="p-8 bg-white dark:bg-white/5 rounded-2xl border-2 border-primary transition-all hover:-translate-y-2 shadow-2xl relative overflow-hidden">
+                        <div class="absolute top-0 right-0 bg-primary text-white text-xs font-bold px-3 py-1 rounded-bl-lg">POPULAR</div>
+                        <h3 class="text-xl font-bold mb-2">Academician</h3>
+                        <div class="text-4xl font-black text-primary mb-6">₹5,000<span class="text-sm text-gray-500 font-normal">/author</span></div>
+                        <ul class="space-y-3 opacity-70 mb-8 text-sm">
+                            <li class="flex gap-2"><span class="text-primary">✓</span> Paper Presentation Slot</li>
+                            <li class="flex gap-2"><span class="text-primary">✓</span> Publication in Proceedings</li>
+                            <li class="flex gap-2"><span class="text-primary">✓</span> Networking Dinner</li>
+                        </ul>
+                        <button class="w-full py-3 rounded-xl bg-primary text-white font-bold shadow-lg shadow-primary/30">Register Now</button>
+                    </div>
+
+                    <div class="p-8 bg-white dark:bg-white/5 rounded-2xl border border-slate-200 dark:border-white/10 hover:border-primary transition-all hover:-translate-y-2 shadow-xl">
+                        <h3 class="text-xl font-bold mb-2">Industry Delegate</h3>
+                        <div class="text-4xl font-black text-primary mb-6">₹7,000<span class="text-sm text-gray-500 font-normal">/person</span></div>
+                        <ul class="space-y-3 opacity-70 mb-8 text-sm">
+                            <li class="flex gap-2"><span class="text-primary">✓</span> Company Branding Opportunity</li>
+                            <li class="flex gap-2"><span class="text-primary">✓</span> Exhibition Space Access</li>
+                            <li class="flex gap-2"><span class="text-primary">✓</span> VIP Seating</li>
+                        </ul>
+                        <button class="w-full py-3 rounded-xl border border-primary text-primary font-bold hover:bg-primary hover:text-white transition-colors">Register</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 px-6 bg-white dark:bg-white/5" id="authors">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-black mb-4">Author Guidelines</h2>
+                </div>
+                <div class="space-y-6">
+                    <div class="p-6 border border-slate-200 dark:border-white/10 rounded-2xl">
+                        <h4 class="text-xl font-bold mb-3 flex items-center gap-2">
+                            <span class="material-symbols-outlined text-primary">gavel</span>
+                            Plagiarism Policy
+                        </h4>
+                        <p class="opacity-70 leading-relaxed">
+                            All submissions must be original. Papers with plagiarism similarity index greater than 15% will be summarily rejected.
+                        </p>
+                    </div>
+                    <div class="p-6 border border-slate-200 dark:border-white/10 rounded-2xl">
+                        <h4 class="text-xl font-bold mb-3 flex items-center gap-2">
+                            <span class="material-symbols-outlined text-primary">smart_toy</span>
+                            AI Usage Policy
+                        </h4>
+                        <p class="opacity-70 leading-relaxed">
+                            The use of generative AI tools (like ChatGPT) to write the paper is strictly prohibited. AI may be used for language polishing but must be disclosed.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-background-dark text-white py-20 px-6 border-t border-white/5" id="contact">
+            <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div>
+                    <span class="text-xl font-extrabold tracking-tight">ICISST 2026</span>
+                    <p class="opacity-60 mt-4 mb-8">
+                        Vidya Academy of Science and Technology<br>
+                        Thalakkottukara P.O., Thrissur<br>
+                        Kerala, India - 680501
+                    </p>
+                </div>
+                <div>
+                    <h5 class="font-bold mb-6">Contact Us</h5>
+                    <ul class="space-y-4 opacity-60 text-sm">
+                        <li>icisst2026@vidyaacademy.ac.in (Placeholder)</li>
+                        <li>+91 4885 287721 (Placeholder)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-bold mb-6">Links</h5>
+                    <ul class="space-y-4 opacity-60 text-sm">
+                        <li><a href="#" class="hover:text-primary">Vidya Academy Website</a></li>
+                        <li><a href="#" class="hover:text-primary">Google Maps Location</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="max-w-7xl mx-auto pt-10 mt-10 border-t border-white/5 opacity-40 text-xs text-center">
+                <p>© 2026 Vidya Academy of Science and Technology. All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script src="script.js"></script>
+</body>
+</html>
