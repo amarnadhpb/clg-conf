@@ -56,11 +56,11 @@ const SPEAKERS = [
 ];
 
 const ORGANIZING_COMMITTEE = [
-    { name: "Dr. Saji C.B", role: "Principal", institution: "Vidya Academy" },
-    { name: "Dr. Sunitha C", role: "HOD, CSE", institution: "Vidya Academy" },
-    { name: "Dr. Sudha Balagopalan", role: "Dean Academics", institution: "Vidya Academy" },
-    { name: "Mr. Paul Chacko", role: "Coordinator", institution: "Vidya Academy" },
-    { name: "Ms. Divya K", role: "Co-Coordinator", institution: "Vidya Academy" }
+    { name: "Dr. Sunitha C", role: "Principal", institution: "Vidya Academy" },
+    { name: "Dr. A. Scientist", role: "Professor", institution: "IIT Bombay" },
+    { name: "Dr. B. Engineer", role: "Senior Researcher", institution: "NIT Calicut" },
+    { name: "Dr. C. Innovator", role: "Director", institution: "CUSAT" },
+    { name: "Dr. D. Scholar", role: "Professor", institution: "IIIT Hyderabad" }
 ];
 
 const ADVISORY_COMMITTEE = [
