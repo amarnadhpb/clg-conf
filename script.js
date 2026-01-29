@@ -19,6 +19,8 @@ tailwind.config = {
 // 1. DATA CONFIGURATION (EDIT HERE)
 // ========================================
 
+const BANNER_MESSAGE = "  Call For Papers Open  ";
+
 const IMPORTANT_DATES = [
     { title: "Call for Papers", date: "16 March 2026" },
     // { title: "Draft Submission Extended", date: "22 January 2026" },
@@ -304,4 +306,12 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // Deadline banner text (editable via BANNER_MESSAGE)
+    const bannerEl = document.getElementById('deadline-banner-text');
+    if (bannerEl && BANNER_MESSAGE) {
+        // Repeat message with separators so it feels continuous
+        const repeated = Array(6).fill(BANNER_MESSAGE).join("   ✦   ");
+        bannerEl.textContent = repeated;
+    }
 });
