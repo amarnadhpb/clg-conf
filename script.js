@@ -20,54 +20,95 @@ tailwind.config = {
 // ========================================
 
 const IMPORTANT_DATES = [
-    { title: "Call for Papers", date: "22 August 2025" },
-    { title: "Draft Submission Extended", date: "22 January 2026" },
-    { title: "Notification of Acceptance", date: "06 February 2026" },
-    { title: "Final Paper Submission", date: "22 February 2026" },
-    { title: "Early Bird Registration", date: "24 February 2026" },
+    { title: "Call for Papers", date: "16 March 2026" },
+    // { title: "Draft Submission Extended", date: "22 January 2026" },
+    { title: "Notification of Acceptance", date: "25 May 2026" },
+    { title: "Final Paper Submission", date: "25 April 2026" },
+    // { title: "Early Bird Registration", date: "24 February 2026" },
     { title: "Conference Dates", date: "June 26-27, 2026" }
 ];
 
 const SPEAKERS = [
     {
-        name: "Dr. Jane Doe",
-        designation: "Professor, Dept. of CS",
-        topic: "Future of AI in Sustainability",
-        image: "https://i.pravatar.cc/150?img=1" 
+        name: "Sri. Laj Lal",
+        designation: "Build Engineer, Apple, Japan",
+        topic: "xxxxxxxxxxxxxx",
+        image: "assets/speakers/speaker5.jpeg"
     },
     {
-        name: "Dr. John Smith",
-        designation: "Research Lead",
-        topic: "Renewable Energy Systems",
-        image: "https://i.pravatar.cc/150?img=11"
+        name: "Dr Rubell Marion Lincy",
+        designation: "HOD, Dept. of Computer Science & Engineering,IIIT Kottayam",
+        topic: "Quantum Computing",
+        image: "assets/speakers/speaker2.jpeg"
     },
     {
-        name: "Prof. Alan Turing",
-        designation: "Director of Research",
-        topic: "Machine Learning Ethics",
-        image: "https://i.pravatar.cc/150?img=3"
+        name: "Prof. D. Sakthi Kumar",
+        designation: "Graduate School of Interdisciplinary New Science, Toyo University, Japan",
+        topic: "xxxxxxxxxxxxxx",
+        image: "assets/speakers/speaker3.jpg"
     },
     {
-        name: "Dr. Grace Hopper",
-        designation: "Senior Data Scientist",
-        topic: "Big Data & Climate Change",
-        image: "https://i.pravatar.cc/150?img=5"
-    }
+        name: "Dr. Padmakumar Nair",
+        designation: "Vice Chancellor, Thapar Institute of Engineering and Technology, Punjab",
+        topic: "xxxxxxxxxxxxxx",
+        image: "assets/speakers/speaker4.png"
+    },
+     {
+        name: "Dr. Sreekanth K. J",
+        designation: "Research Scientist, Kuwait Institute for Scientific Research",
+        topic: "xxxxxxxxxxxxxx",
+        image: "assets/speakers/speaker1.jpeg" 
+    },
+    {
+        name: "Dr. Nithin Padmanabhan",
+        designation: "Senior Research Engineer, Electric Power Research Institute (EPRI) Canada",
+        topic: "xxxxxxxxxxxxxx",
+        image: "assets/speakers/speaker7.jpeg" 
+    },
+    {
+        name: "Dr. Anna Charly",
+        designation: "Faculty of Science and Engineering, University of Liverpool, U.K.",
+        topic: "xxxxxxxxxxxxxx",
+        image: "assets/speakers/speaker8.jpeg" 
+    },
+    {
+        name: "Dr. Achuthsankar S Nair",
+        designation: "Former Professor & HOD of Bioinformatics,University of Kerala",
+        topic: "xxxxxxxxxxxxxx",
+        image: "assets/speakers/speaker6.png" 
+    },
+];
+
+const PATRONS = [
+    { name: "Mr. Gireesh Kumar Malattiri", role: "Chairman", institution: "VICT" },
+    { name: "Mr. Manu Reghurajan", role: "Secretary", institution: "VICT" },
 ];
 
 const ORGANIZING_COMMITTEE = [
-    { name: "Dr. Sunitha C", role: "Principal", institution: "Vidya Academy" },
-    { name: "Dr. A. Scientist", role: "Professor", institution: "IIT Bombay" },
-    { name: "Dr. B. Engineer", role: "Senior Researcher", institution: "NIT Calicut" },
-    { name: "Dr. C. Innovator", role: "Director", institution: "CUSAT" },
-    { name: "Dr. D. Scholar", role: "Professor", institution: "IIIT Hyderabad" }
+    { name: "Dr. Sunitha C", role: "Organising Chair, Principal", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Jeeva K. A", role: "HoD, AIML (Coordinator)", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Reji C Joy", role: "HoD, MCA (Coordinator)", institution: "Vidya Academy of Science & Technology" },
 ];
 
 const ADVISORY_COMMITTEE = [
-    { name: "Dr. A. Scientist", role: "Professor", institution: "IIT Bombay" },
-    { name: "Dr. B. Engineer", role: "Senior Researcher", institution: "NIT Calicut" },
-    { name: "Dr. C. Innovator", role: "Director", institution: "CUSAT" },
-    { name: "Dr. D. Scholar", role: "Professor", institution: "IIIT Hyderabad" }
+    { name: "Prof. D. Sakthi Kumar", role: "Graduate School of Interdisciplinary New Science", institution: "Toyo University, Japan" },
+    { name: "Dr. Sreekanth K. J", role: "Research Scientist", institution: "Kuwait Institute for Scientific Research, Kuwait" },
+    { name: "Dr. Toby Cumberbatch", role: "", institution: "" },
+    { name: "Dr. Padmakumar Nair", role: "Vice Chancellor", institution: "Thapar Institute of Engineering and Technology, Punjab" },
+    { name: "Dr. Anna Charly", role: "Faculty of Science and Engineering", institution: "University of Liverpool, U.K." },
+    { name: "Sri. Shashi Nambisan", role: "Director; Transportation Research Center; Professor of Civil Engineering", institution: "University of Nevada–Las Vegas, USA" },
+    { name: "Pramodkumar Karunalayam", role: "Digital Transformation Evangelist, AI Strategist", institution: "Philip Morris, Japan" },
+    { name: "Dr. Digvijay S. Pawar", role: "Associate Professor", institution: "IIT Hyderabad" },
+    { name: "Dr. Achuthsankar S. Nair", role: "Former Professor and Head, Dept. of Bioinformatics", institution: "University of Kerala" },
+    { name: "Prof. Gayathri Bharathan", role: "Assistant Professor, Optics and Photonics Centre", institution: "IIIT Delhi" },
+    { name: "Sri. Laj Lal", role: "Build Engineer", institution: "Apple, Japan" },
+    { name: "Dr. A. Jaya", role: "Professor & Director (CDOE)", institution: "BSAR Crescent Institute of Science and Technology, Chennai" },
+    { name: "Dr. V. N. Krishnachandran", role: "", institution: "" },
+    { name: "Dr. Sudha Balagopalan", role: "Professor, EEE", institution: "Kerala" },
+    { name: "Dr. Harigovindan V. P", role: "Professor & Dean", institution: "NIT Puducherry" },
+    { name: "Sri. Zaher Abdulrahman", role: "Electronics Lead Engineer", institution: "Jaguar Land Rover Ltd., Germany" },
+    { name: "Dr. Shailesh Sivan", role: "Principal AI Architect", institution: "University of Madras" },
+    { name: "Dr. Shalij P. R", role: "Academic Director", institution: "Vidya Academy of Science and Technology" },
 ];
 
 // ========================================
@@ -106,8 +147,18 @@ function renderSpeakers() {
 }
 
 function renderCommittee(type) {
-    const container = document.getElementById(type === 'organizing' ? 'organizing-grid' : 'advisory-grid');
-    const data = type === 'organizing' ? ORGANIZING_COMMITTEE : ADVISORY_COMMITTEE;
+    const id =
+        type === 'organizing' ? 'organizing-grid' :
+        type === 'advisory' ? 'advisory-grid' :
+        'patrons-grid';
+
+    const container = document.getElementById(id);
+
+    const data =
+        type === 'organizing' ? ORGANIZING_COMMITTEE :
+        type === 'advisory' ? ADVISORY_COMMITTEE :
+        PATRONS;
+
     if (!container) return;
 
     container.innerHTML = data.map(member => `
@@ -117,7 +168,7 @@ function renderCommittee(type) {
             </div>
             <div>
                 <h5 class="font-bold text-sm">${member.name}</h5>
-                <p class="text-xs opacity-60">${member.role}, ${member.institution}</p>
+                <p class="text-xs opacity-60">${[member.role, member.institution].filter(Boolean).join(', ')}</p>
             </div>
         </div>
     `).join('');
@@ -126,18 +177,27 @@ function renderCommittee(type) {
 window.switchCommittee = function(type) {
     const orgGrid = document.getElementById('organizing-grid');
     const advGrid = document.getElementById('advisory-grid');
+    const patronsGrid = document.getElementById('patrons-grid');
     
+    // Ensure the selected tab has content rendered
+    renderCommittee(type);
+
     if(type === 'organizing') {
         orgGrid.classList.remove('hidden');
         advGrid.classList.add('hidden');
+        patronsGrid?.classList.add('hidden');
     } else {
         orgGrid.classList.add('hidden');
-        advGrid.classList.remove('hidden');
+        advGrid.classList.add('hidden');
+        patronsGrid?.classList.add('hidden');
+
+        if (type === 'advisory') advGrid.classList.remove('hidden');
+        if (type === 'patrons') patronsGrid?.classList.remove('hidden');
     }
 
     const btns = document.querySelectorAll('.committee-tab');
     btns.forEach(btn => {
-        if(btn.textContent.toLowerCase().includes(type.substring(0,4))) {
+        if(btn.getAttribute('data-type') === type) {
             btn.classList.add('bg-primary', 'text-white');
             btn.classList.remove('bg-slate-100', 'dark:bg-white/5');
         } else {
@@ -198,6 +258,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderSpeakers();
     renderCommittee('organizing');
     renderCommittee('advisory');
+    renderCommittee('patrons');
 
     // Logic
     updateCountdown();
@@ -207,10 +268,39 @@ document.addEventListener('DOMContentLoaded', () => {
     // Mobile Menu
     const menuBtn = document.getElementById('mobile-menu-btn');
     const menu = document.getElementById('mobile-menu');
-    if(menuBtn) {
-        menuBtn.addEventListener('click', () => {
-            menu.classList.toggle('hidden');
-            menu.classList.toggle('flex');
-        });
+    const backdrop = document.getElementById('mobile-menu-backdrop');
+    
+    function toggleMobileMenu() {
+        const isHidden = menu.classList.contains('hidden');
+        if (isHidden) {
+            menu.classList.remove('hidden');
+            menu.classList.add('flex');
+            backdrop?.classList.remove('hidden');
+            document.body.style.overflow = 'hidden'; // Prevent background scrolling
+        } else {
+            menu.classList.add('hidden');
+            menu.classList.remove('flex');
+            backdrop?.classList.add('hidden');
+            document.body.style.overflow = ''; // Restore scrolling
+        }
     }
+    
+    if(menuBtn) {
+        menuBtn.addEventListener('click', toggleMobileMenu);
+    }
+    
+    // Close menu when clicking backdrop
+    if(backdrop) {
+        backdrop.addEventListener('click', toggleMobileMenu);
+    }
+    
+    // Close menu when clicking menu links
+    const menuLinks = menu?.querySelectorAll('a');
+    menuLinks?.forEach(link => {
+        link.addEventListener('click', () => {
+            if (window.innerWidth < 1280) { // Only close on mobile
+                toggleMobileMenu();
+            }
+        });
+    });
 });
