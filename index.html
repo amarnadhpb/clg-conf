@@ -14,7 +14,7 @@
         <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
             <div class="flex items-center gap-3">
                 <div class="h-12 w-auto">
-                    <img src="logo.png" alt="Vidya Academy Logo" class="h-full w-auto object-contain">
+                    <img src="assets/logo.png" alt="Vidya Academy Logo" class="h-full w-auto object-contain">
                 </div>
                 <div class="hidden sm:block leading-tight">
                     <span class="block text-lg font-extrabold tracking-tight">ICISST 2026</span>
@@ -29,6 +29,7 @@
                 <a class="text-sm font-medium hover:text-primary transition-colors" href="#speakers">Speakers</a>
                 <a class="text-sm font-medium hover:text-primary transition-colors" href="#schedule">Schedule</a>
                 <a class="text-sm font-medium hover:text-primary transition-colors" href="#committee">Committee</a>
+                <a class="text-sm font-medium hover:text-primary transition-colors" href="#registration">Pricing</a>
                 <button class="bg-primary text-white px-5 py-2 rounded-lg font-bold text-sm hover:opacity-90 transition-opacity shadow-lg shadow-primary/25">
                     Register Now
                 </button>
@@ -39,7 +40,10 @@
             </button>
         </div>
 
-        <div id="mobile-menu" class="hidden xl:hidden absolute top-20 left-0 w-full glass border-t border-slate-200 dark:border-white/10 p-6 flex-col gap-4 shadow-xl h-screen overflow-y-auto pb-32">
+        <!-- Mobile Menu Backdrop -->
+        <div id="mobile-menu-backdrop" class="hidden xl:hidden fixed inset-0 bg-black/50 backdrop-blur-sm z-40"></div>
+        
+        <div id="mobile-menu" class="hidden xl:hidden fixed top-20 left-0 right-0 w-full bg-white dark:bg-background-dark border-t border-slate-200 dark:border-white/10 p-6 flex-col gap-4 shadow-xl h-[calc(100vh-5rem)] overflow-y-auto pb-32 z-50">
             <a class="text-base font-medium hover:text-primary" href="#about">About Conference</a>
             <a class="text-base font-medium hover:text-primary" href="#tracks">Tracks</a>
             <a class="text-base font-medium hover:text-primary" href="#dates">Important Dates</a>
@@ -68,7 +72,7 @@
                     </h1>
                     <p class="text-lg opacity-80 max-w-xl leading-relaxed">
                         <strong>June 26-27, 2026</strong> | Vidya Academy of Science and Technology. <br>
-                        Join the premier international conference exploring the convergence of AI, Engineering, and Sustainability.
+                        Join the premier International Conference exploring the convergence of AI, Engineering, and Sustainability.
                     </p>
                     <div class="flex flex-wrap gap-4">
                         <button class="bg-primary text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-lg hover:shadow-primary/20 transition-all">
@@ -82,7 +86,7 @@
                 
                 <div class="flex-1 w-full relative">
                     <div class="w-full aspect-video rounded-2xl overflow-hidden shadow-2xl relative bg-slate-200 dark:bg-slate-800">
-                        <img alt="Conference Venue" class="w-full h-full object-cover opacity-80" src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2070&auto=format&fit=crop"/>
+                        <img alt="Conference Venue" class="w-full h-full object-cover opacity-80" src="assets/vidyatcr_cover.jpeg"/>
                         <div class="absolute inset-0 bg-gradient-to-t from-background-dark/90 to-transparent flex items-end p-8">
                             <div class="w-full grid grid-cols-4 gap-2 sm:gap-4 glass p-4 sm:p-6 rounded-xl border border-white/20">
                                 <div class="text-center">
@@ -146,7 +150,8 @@
         <section class="py-20 px-6 bg-background-light dark:bg-background-dark" id="about-college">
             <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-12 items-center">
                 <div class="md:w-1/2">
-                    <img src="https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1000&auto=format&fit=crop" alt="Vidya Academy Campus" class="rounded-2xl shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500">
+                    <!-- https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1000&auto=format&fit=crop -->
+                    <img src="assets/Vidya-Academy-of-Science-Campus-View-1.avif" alt="Vidya Academy Campus" class="rounded-2xl shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500">
                 </div>
                 <div class="md:w-1/2">
                     <h2 class="text-primary font-bold uppercase tracking-widest text-sm mb-4">Host Institute</h2>
@@ -155,7 +160,7 @@
                         Vidya Academy of Science & Technology (VAST) is a state-of-the-art engineering college conforming to international standards. This premier institution is approved by AICTE and affiliated with APJ Abdul Kalam Technological University.
                     </p>
                     <div class="flex gap-4">
-                         <a href="#" class="text-primary font-bold hover:underline">Visit Website &rarr;</a>
+                         <a href="https://www.vidyaacademy.ac.in/" class="text-primary font-bold hover:underline">Visit Website &rarr;</a>
                     </div>
                 </div>
             </div>
@@ -172,7 +177,7 @@
                         <div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
                             <span class="material-symbols-outlined text-3xl">psychology</span>
                         </div>
-                        <h4 class="text-xl font-bold mb-3">AI & Machine Learning</h4>
+                        <h4 class="text-xl font-bold mb-3">AI & ML</h4>
                         <p class="text-sm opacity-60 leading-relaxed">Deep learning, generative models, neural networks, and ethical AI applications.</p>
                     </div>
                     <div class="p-8 bg-white dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-2xl hover:border-primary/50 transition-all hover:shadow-xl group">
@@ -186,7 +191,7 @@
                         <div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
                             <span class="material-symbols-outlined text-3xl">model_training</span>
                         </div>
-                        <h4 class="text-xl font-bold mb-3">Modeling & Simulation</h4>
+                        <h4 class="text-xl font-bold mb-3">Modeling,Simulation & Analysis of Engineering Systems</h4>
                         <p class="text-sm opacity-60 leading-relaxed">Analysis of engineering systems, digital twins, and predictive modeling.</p>
                     </div>
                     <div class="p-8 bg-white dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-2xl hover:border-primary/50 transition-all hover:shadow-xl group">
@@ -295,8 +300,9 @@
                     <h2 class="text-4xl font-black mb-4">Organising Committee</h2>
                 </div>
                 <div class="flex justify-center gap-4 mb-12">
-                    <button class="committee-tab active px-6 py-2 bg-primary text-white rounded-full font-bold" onclick="switchCommittee('organizing')">Organising Team</button>
-                    <button class="committee-tab px-6 py-2 bg-slate-100 dark:bg-white/5 rounded-full font-bold hover:bg-slate-200" onclick="switchCommittee('advisory')">Advisory Board</button>
+                    <button class="committee-tab active px-6 py-2 bg-primary text-white rounded-full font-bold" data-type="organizing" onclick="switchCommittee('organizing')">Organising Team</button>
+                    <button class="committee-tab px-6 py-2 bg-slate-100 dark:bg-white/5 rounded-full font-bold hover:bg-slate-200" data-type="advisory" onclick="switchCommittee('advisory')">Advisory Board</button>
+                    <button class="committee-tab px-6 py-2 bg-slate-100 dark:bg-white/5 rounded-full font-bold hover:bg-slate-200" data-type="patrons" onclick="switchCommittee('patrons')">Patrons</button>
                 </div>
 
                 <div id="organizing-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -304,10 +310,95 @@
 
                 <div id="advisory-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6 hidden">
                     </div>
+
+                <div id="patrons-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6 hidden">
+                    </div>
             </div>
         </section>
 
         <section class="py-20 px-6 bg-background-light dark:bg-background-dark" id="registration">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-black mb-4">Registration Fees</h2>
+                    <p class="opacity-60">
+                        Category-wise registration details (inclusive of applicable taxes)
+                    </p>
+                </div>
+        
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    
+                    <!-- Fees Table -->
+                    <div class="lg:col-span-2 bg-white dark:bg-white/5 rounded-2xl border border-slate-200 dark:border-white/10 shadow-xl overflow-hidden">
+                        <div class="p-6 border-b border-slate-200 dark:border-white/10 font-bold text-lg">
+                            Category
+                        </div>
+        
+                        <div class="divide-y divide-slate-200 dark:divide-white/10">
+                            <div class="flex justify-between p-6">
+                                <span>Faculty — IEEE Members</span>
+                                <span class="font-bold">₹ 6,500</span>
+                            </div>
+                            <div class="flex justify-between p-6">
+                                <span>Faculty — Non-IEEE Members</span>
+                                <span class="font-bold">₹ 8,000</span>
+                            </div>
+                            <div class="flex justify-between p-6">
+                                <span>Student — IEEE Members</span>
+                                <span class="font-bold">₹ 5,000</span>
+                            </div>
+                            <div class="flex justify-between p-6">
+                                <span>Student — Non-IEEE Members</span>
+                                <span class="font-bold">₹ 5,500</span>
+                            </div>
+                            <div class="flex justify-between p-6">
+                                <span>Industry Professionals — IEEE Members</span>
+                                <span class="font-bold">₹ 7,600</span>
+                            </div>
+                            <div class="flex justify-between p-6">
+                                <span>Industry Professionals — Non-IEEE Members</span>
+                                <span class="font-bold">₹ 9,000</span>
+                            </div>
+                            <div class="flex justify-between p-6">
+                                <span>Foreign Delegates</span>
+                                <span class="font-bold">US$ 255</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Notes Panel -->
+                    <div class="bg-primary/5 rounded-2xl border border-primary/20 p-6 shadow-lg flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold text-primary mb-4">
+                                Registration Notes
+                            </h3>
+                            <ul class="space-y-4 text-sm opacity-80 leading-relaxed">
+                                <li>• At least one author of each accepted paper must register for inclusion in the proceedings.</li>
+                                <li>• Each registration covers one accepted paper; additional papers may attract extra charges.</li>
+                                <li>• Payment details will be shared with acceptance notification.</li>
+                            </ul>
+        
+                            <button class="mt-6 inline-flex items-center justify-center px-6 py-3 rounded-xl border-2 border-primary text-primary font-bold hover:bg-primary hover:text-white transition-colors">
+                                Registration Link
+                            </button>
+                        </div>
+        
+                        <div class="mt-10">
+                            <h4 class="font-bold mb-2">Delegate Registration</h4>
+                            <p class="text-sm opacity-70 mb-4">
+                                Researchers, academicians, industry professionals, and students are welcome to participate as delegates.
+                            </p>
+                            <button class="w-full py-3 rounded-xl bg-primary text-white font-bold shadow-lg shadow-primary/30">
+                                Delegate Registration Link
+                            </button>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- <section class="py-20 px-6 bg-background-light dark:bg-background-dark" id="registration">
             <div class="max-w-7xl mx-auto">
                 <div class="text-center mb-16">
                     <h2 class="text-4xl font-black mb-4">Registration Plans</h2>
@@ -349,7 +440,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section class="py-20 px-6 bg-white dark:bg-white/5" id="authors">
             <div class="max-w-4xl mx-auto">
@@ -378,6 +469,20 @@
                 </div>
             </div>
         </section>
+<!--------------Microsoft CMT Acknowledgement------------------ -->
+        <section class="py-20 px-6 bg-white dark:bg-white/5" id="authors">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-black mb-4">Microsoft CMT Acknowledgement</h2>
+                </div>
+                <div class="space-y-6"
+                        <p class="opacity-70 leading-relaxed">
+                            The Microsoft Conference Management Toolkit (CMT) is used to manage the submission, review, and decision processes for ADSSSC 2026. The service is provided free of cost by Microsoft, including Azure infrastructure, software development, and support.
+                        </p>
+                    
+                </div>
+            </div>
+        </section>
 
         <footer class="bg-background-dark text-white py-20 px-6 border-t border-white/5" id="contact">
             <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -399,7 +504,7 @@
                 <div>
                     <h5 class="font-bold mb-6">Links</h5>
                     <ul class="space-y-4 opacity-60 text-sm">
-                        <li><a href="#" class="hover:text-primary">Vidya Academy Website</a></li>
+                        <li><a href="https://www.vidyaacademy.ac.in/" class="hover:text-primary">Vidya Academy Website</a></li>
                         <li><a href="#" class="hover:text-primary">Google Maps Location</a></li>
                     </ul>
                 </div>
