@@ -85,6 +85,8 @@ const SPEAKERS = [
 const PATRONS = [
     { name: "Mr. Gireesh Kumar Malattiri", role: "Chairman", institution: "VICT" },
     { name: "Mr. Manu Reghurajan", role: "Secretary", institution: "VICT" },
+    { name: "Dr. Shaji P R", role: "Academic Director", institution: "VICT" },
+    { name: "Mr. Suresh Lal", role: "Executive Director", institution: "VICT" },
 ];
 
 const ORGANIZING_COMMITTEE = [
@@ -96,7 +98,7 @@ const ORGANIZING_COMMITTEE = [
 const ADVISORY_COMMITTEE = [
     { name: "Prof. D. Sakthi Kumar", role: "Graduate School of Interdisciplinary New Science", institution: "Toyo University, Japan" },
     { name: "Dr. Sreekanth K. J", role: "Research Scientist", institution: "Kuwait Institute for Scientific Research, Kuwait" },
-    { name: "Dr. Toby Cumberbatch", role: "", institution: "" },
+    { name: "Dr. Toby Cumberbatch", role: "Chair IEEE Smart Village Education Committee", institution: "" },
     { name: "Dr. Padmakumar Nair", role: "Vice Chancellor", institution: "Thapar Institute of Engineering and Technology, Punjab" },
     { name: "Dr. Anna Charly", role: "Faculty of Science and Engineering", institution: "University of Liverpool, U.K." },
     { name: "Sri. Shashi Nambisan", role: "Director; Transportation Research Center; Professor of Civil Engineering", institution: "University of Nevada–Las Vegas, USA" },
@@ -106,7 +108,7 @@ const ADVISORY_COMMITTEE = [
     { name: "Prof. Gayathri Bharathan", role: "Assistant Professor, Optics and Photonics Centre", institution: "IIIT Delhi" },
     { name: "Sri. Laj Lal", role: "Build Engineer", institution: "Apple, Japan" },
     { name: "Dr. A. Jaya", role: "Professor & Director (CDOE)", institution: "BSAR Crescent Institute of Science and Technology, Chennai" },
-    { name: "Dr. V. N. Krishnachandran", role: "", institution: "" },
+    { name: "Dr. V. N. Krishnachandran", role: "Former Vice-Principal & HOD MCA ", institution: "Vidya Academy of Science & Technology" },
     { name: "Dr. Sudha Balagopalan", role: "Professor, EEE", institution: "Kerala" },
     { name: "Dr. Harigovindan V. P", role: "Professor & Dean", institution: "NIT Puducherry" },
     { name: "Sri. Zaher Abdulrahman", role: "Electronics Lead Engineer", institution: "Jaguar Land Rover Ltd., Germany" },
