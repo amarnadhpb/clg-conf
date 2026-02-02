@@ -80,6 +80,11 @@ const SPEAKERS = [
         topic: "xxxxxxxxxxxxxx",
         image: "assets/speakers/speaker6.png" 
     },
+    { name: "Dr. Soman K. P",
+      designation: "Dean, School of Artificial Intelligence,Amrita Viswa Vidyapeetham, Coimbatore",
+      topic: "xxxxxxxxxxxxxxx",
+      image: "assets/speakers/speaker10.jpg",
+    },
 ];
 
 const PATRONS = [
@@ -93,6 +98,15 @@ const ORGANIZING_COMMITTEE = [
     { name: "Dr. Sunitha C", role: "Organising Chair, Principal", institution: "Vidya Academy of Science & Technology" },
     { name: "Dr. Jeeva K. A", role: "HoD, AIML (Coordinator)", institution: "Vidya Academy of Science & Technology" },
     { name: "Dr. Reji C Joy", role: "HoD, MCA (Coordinator)", institution: "Vidya Academy of Science & Technology" },
+        { name: "Dr. Anjalu P Sasidharan", role: "Assoc. Professor, CE", institution: "Vidya Academy of Science & Technology" },
+        { name: "Dr. Sanaj M. S", role: "Professor, CSE", institution: "Vidya Academy of Science & Technology" },
+        { name: "Dr. Shameem S", role: "Assoc. Professor, CSE", institution: "Vidya Academy of Science & Technology" },
+        { name: "Ms. Riya Roy", role: "Asst. Professor, AI & ML", institution: "Vidya Academy of Science & Technology" },
+        { name: "Dr. Latha Dinesh", role: "Professor, EEE", institution: "Vidya Academy of Science & Technology" },
+        { name: "Ms. Remya K. R", role: "Asst. Professor, ECE", institution: "Vidya Academy of Science & Technology" },
+        { name: "Dr. Sooraj K Prabha", role: "Professor, ME", institution: "Vidya Academy of Science & Technology" },
+        { name: "Dr. Siju K. C", role: "Assoc. Professor, Applied Sciences & Humanities", institution: "Vidya Academy of Science & Technology" }
+      
 ];
 
 const ADVISORY_COMMITTEE = [
@@ -114,6 +128,8 @@ const ADVISORY_COMMITTEE = [
     { name: "Sri. Zaher Abdulrahman", role: "Electronics Lead Engineer", institution: "Jaguar Land Rover Ltd., Germany" },
     { name: "Dr. Shailesh Sivan", role: "Principal AI Architect", institution: "University of Madras" },
     { name: "Dr. Shalij P. R", role: "Academic Director", institution: "Vidya Academy of Science and Technology" },
+    { name: "Dr. V N Krishnachandran", role: "Professor Emeritus", institution: "Sreepathy Institute of Management and Technology, Palakkad" },
+    { name: "Dr. Soman K. P", role: "Dean, School of Artificial Intelligence", institution: "Amrita Viswa Vidyapeetham, Coimbatore" },
 ];
 
 // ========================================
