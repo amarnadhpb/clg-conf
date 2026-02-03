@@ -123,13 +123,14 @@ const ADVISORY_COMMITTEE = [
     { name: "Sri. Laj Lal", role: "Build Engineer", institution: "Apple, Japan" },
     { name: "Dr. A. Jaya", role: "Professor & Director (CDOE)", institution: "BSAR Crescent Institute of Science and Technology, Chennai" },
     // { name: "Dr. V. N. Krishnachandran", role: "Former Vice-Principal & HOD MCA ", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. Sudha Balagopalan", role: "Professor, EEE", institution: "Kerala" },
+    { name: "Dr. Sudha Balagopalan", role: "Professor EEE, Director ( Outreach & Professional Development )", institution: "Christ college of Engineering" },
     { name: "Dr. Harigovindan V. P", role: "Professor & Dean", institution: "NIT Puducherry" },
     { name: "Sri. Zaher Abdulrahman", role: "Electronics Lead Engineer", institution: "Jaguar Land Rover Ltd., Germany" },
     { name: "Dr. Shailesh Sivan", role: "Principal AI Architect", institution: "University of Madras" },
     { name: "Dr. Shalij P. R", role: "Academic Director", institution: "Vidya Academy of Science and Technology" },
     { name: "Dr. V N Krishnachandran", role: "Professor Emeritus", institution: "Sreepathy Institute of Management and Technology, Palakkad" },
     { name: "Dr. Soman K. P", role: "Dean, School of Artificial Intelligence", institution: "Amrita Viswa Vidyapeetham, Coimbatore" },
+    { name: "Dr. A Jaya",role: "Professor & Director (CDOE)", institution: "BSAR Crescent Institute of Science and Technology, Chennai" },
 ];
 
 // ========================================
