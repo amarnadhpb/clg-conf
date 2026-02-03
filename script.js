@@ -122,7 +122,7 @@ const ADVISORY_COMMITTEE = [
     { name: "Prof. Gayathri Bharathan", role: "Assistant Professor, Optics and Photonics Centre", institution: "IIIT Delhi" },
     { name: "Sri. Laj Lal", role: "Build Engineer", institution: "Apple, Japan" },
     { name: "Dr. A. Jaya", role: "Professor & Director (CDOE)", institution: "BSAR Crescent Institute of Science and Technology, Chennai" },
-    { name: "Dr. V. N. Krishnachandran", role: "Former Vice-Principal & HOD MCA ", institution: "Vidya Academy of Science & Technology" },
+    // { name: "Dr. V. N. Krishnachandran", role: "Former Vice-Principal & HOD MCA ", institution: "Vidya Academy of Science & Technology" },
     { name: "Dr. Sudha Balagopalan", role: "Professor, EEE", institution: "Kerala" },
     { name: "Dr. Harigovindan V. P", role: "Professor & Dean", institution: "NIT Puducherry" },
     { name: "Sri. Zaher Abdulrahman", role: "Electronics Lead Engineer", institution: "Jaguar Land Rover Ltd., Germany" },
