@@ -270,6 +270,14 @@ function setupScheduleTabs() {
     });
 }
 
+window.addEventListener('scroll', () => {
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    document.getElementById("scroll-progress").style.width = scrolled + "%";
+});
+
+
 // ========================================
 // 4. INITIALIZATION
 // ========================================
@@ -333,4 +341,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const repeated = Array(6).fill(BANNER_MESSAGE).join("   ✦   ");
         bannerEl.textContent = repeated;
     }
+
+    
 });

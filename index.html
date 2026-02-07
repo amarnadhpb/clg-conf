@@ -8,10 +8,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     
 </head>
 <body class="bg-background-light dark:bg-background-dark font-display text-[#121117] dark:text-white transition-colors duration-300">
-    
+    <div class="fixed top-0 left-0 h-1 bg-gradient-to-r from-primary to-purple-500 z-[60]" id="scroll-progress" style="width: 0%"></div>
     <header class="fixed top-0 left-0 right-0 z-50 glass">
         <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
             <div class="flex items-center gap-3">
@@ -171,46 +172,46 @@
                 </div>
             </div>
         </section>
-
-        <section class="py-24 px-6 bg-white dark:bg-white/5" id="tracks">
-            <div class="max-w-7xl mx-auto">
-                <div class="text-center mb-16">
-                    <h2 class="text-4xl font-black mb-4">Conference Tracks</h2>
-                    <p class="text-lg opacity-60 max-w-2xl mx-auto">ICISST 2026 invites research contributions in the following core areas.</p>
+<!-- < -------------------------------------------------- > -->
+<section class="py-24 px-6 bg-white dark:bg-white/5" id="tracks">
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-black mb-4">Conference Tracks</h2>
+            <p class="text-lg opacity-60 max-w-2xl mx-auto">ICISST 2026 invites research contributions in the following core areas.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="p-8 bg-white dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-2xl hover:border-primary/50 transition-all hover:shadow-xl group">
+                <div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+                    <span class="material-symbols-outlined text-3xl">psychology</span>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                    <div class="p-8 bg-white dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-2xl hover:border-primary/50 transition-all hover:shadow-xl group">
-                        <div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
-                            <span class="material-symbols-outlined text-3xl">psychology</span>
-                        </div>
-                        <h4 class="text-xl font-bold mb-3">AI & ML</h4>
-                        <p class="text-sm opacity-60 leading-relaxed">Deep learning, generative models, neural networks, and ethical AI applications.</p>
-                    </div>
-                    <div class="p-8 bg-white dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-2xl hover:border-primary/50 transition-all hover:shadow-xl group">
-                        <div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
-                            <span class="material-symbols-outlined text-3xl">eco</span>
-                        </div>
-                        <h4 class="text-xl font-bold mb-3">Sustainable Technologies</h4>
-                        <p class="text-sm opacity-60 leading-relaxed">Green computing, renewable energy integration, and smart environment solutions.</p>
-                    </div>
-                    <div class="p-8 bg-white dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-2xl hover:border-primary/50 transition-all hover:shadow-xl group">
-                        <div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
-                            <span class="material-symbols-outlined text-3xl">model_training</span>
-                        </div>
-                        <h4 class="text-xl font-bold mb-3">Modeling,Simulation & Analysis of Engineering Systems</h4>
-                        <p class="text-sm opacity-60 leading-relaxed">Analysis of engineering systems, digital twins, and predictive modeling.</p>
-                    </div>
-                    <div class="p-8 bg-white dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-2xl hover:border-primary/50 transition-all hover:shadow-xl group">
-                        <div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
-                            <span class="material-symbols-outlined text-3xl">precision_manufacturing</span>
-                        </div>
-                        <h4 class="text-xl font-bold mb-3">Automatic & Control Systems</h4>
-                        <p class="text-sm opacity-60 leading-relaxed">Robotics, automation, industrial IoT, and embedded control systems.</p>
-                    </div>
-                </div>
+                <h4 class="text-xl font-bold mb-3">AI & ML</h4>
+                <p class="text-sm opacity-60 leading-relaxed">Deep learning, generative models, neural networks, and ethical AI applications.</p>
             </div>
-        </section>
-
+            <div class="p-8 bg-white dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-2xl hover:border-primary/50 transition-all hover:shadow-xl group">
+                <div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+                    <span class="material-symbols-outlined text-3xl">eco</span>
+                </div>
+                <h4 class="text-xl font-bold mb-3">Sustainable Technologies</h4>
+                <p class="text-sm opacity-60 leading-relaxed">Green computing, renewable energy integration, and smart environment solutions.</p>
+            </div>
+            <div class="p-8 bg-white dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-2xl hover:border-primary/50 transition-all hover:shadow-xl group">
+                <div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+                    <span class="material-symbols-outlined text-3xl">model_training</span>
+                </div>
+                <h4 class="text-xl font-bold mb-3">Modeling,Simulation & Analysis of Engineering Systems</h4>
+                <p class="text-sm opacity-60 leading-relaxed">Analysis of engineering systems, digital twins, and predictive modeling.</p>
+            </div>
+            <div class="p-8 bg-white dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-2xl hover:border-primary/50 transition-all hover:shadow-xl group">
+                <div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+                    <span class="material-symbols-outlined text-3xl">precision_manufacturing</span>
+                </div>
+                <h4 class="text-xl font-bold mb-3">Automatic & Control Systems</h4>
+                <p class="text-sm opacity-60 leading-relaxed">Robotics, automation, industrial IoT, and embedded control systems.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- < -------------------------------------------------- > -->
         <section class="py-20 px-6 bg-background-light dark:bg-background-dark" id="dates">
             <div class="max-w-5xl mx-auto">
                 <div class="text-center mb-16">
@@ -341,32 +342,24 @@
         
                         <div class="divide-y divide-slate-200 dark:divide-white/10">
                             <div class="flex justify-between p-6">
-                                <span>Faculty </span>
-                                <span class="font-bold">₹ xxxx</span>
+                                <span>Student</span>
+                                <span class="font-bold">₹ 1,000</span>
                             </div>
                             <div class="flex justify-between p-6">
-                                <span>Faculty </span>
-                                <span class="font-bold">₹ xxxx</span>
+                                <span>Faculty</span>
+                                <span class="font-bold">₹ 1,500</span>
                             </div>
                             <div class="flex justify-between p-6">
-                                <span>Student </span>
-                                <span class="font-bold">₹ xxxx</span>
+                                <span>Industry</span>
+                                <span class="font-bold">₹ 1,500</span>
                             </div>
                             <div class="flex justify-between p-6">
-                                <span>Student </span>
-                                <span class="font-bold">₹ xxxx</span>
-                            </div>
-                            <div class="flex justify-between p-6">
-                                <span>Industry Professionals</span>
-                                <span class="font-bold">₹ xxxx</span>
-                            </div>
-                            <div class="flex justify-between p-6">
-                                <span>Industry Professionals</span>
-                                <span class="font-bold">₹ xxxx</span>
+                                <span>Scopus index (additional)</span>
+                                <span class="font-bold">As applicable</span>
                             </div>
                             <div class="flex justify-between p-6">
                                 <span>Foreign Delegates</span>
-                                <span class="font-bold"> $xx</span>
+                                <span class="font-bold">$xx</span>
                             </div>
                         </div>
                     </div>
@@ -380,6 +373,7 @@
                             <ul class="space-y-4 text-sm opacity-80 leading-relaxed">
                                 <li>• At least one author of each accepted paper must register for inclusion in the proceedings.</li>
                                 <li>• Each registration covers one accepted paper; additional papers may attract extra charges.</li>
+                                <li>• Scopus index publication incurs an additional fee (as applicable).</li>
                                 <li>• Payment details will be shared with acceptance notification.</li>
                             </ul>
         
@@ -466,6 +460,40 @@
                     <p class="opacity-60 max-w-2xl mx-auto">Please ensure your manuscript complies with the following guidelines before submitting.</p>
                 </div>
         
+                <div class="mb-12">
+                    <h3 class="text-2xl font-bold mb-6 flex items-center gap-3">
+                        <span class="w-2 h-8 bg-primary rounded-full"></span>
+                        Paper Submission Guidelines &amp; Templates
+                    </h3>
+                    <p class="opacity-70 mb-6 leading-relaxed">
+                        Authors must use the official <strong>IEEE conference format</strong>. Templates and instructions are available on the IEEE Conferences Publishing site. Use the links below as per your preferred format.
+                    </p>
+                    <div class="bg-slate-50 dark:bg-white/5 rounded-2xl border border-slate-200 dark:border-white/10 p-6 md:p-8 mb-8">
+                        <h4 class="text-lg font-bold mb-4">Microsoft Word</h4>
+                        <ul class="space-y-2 text-sm opacity-80">
+                            <li><a href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-template-letter.docx" target="_blank" rel="noopener noreferrer" class="text-primary font-medium hover:underline">US Letter</a> (DOC, 30 KB)</li>
+                            <li><a href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-template-a4.docx" target="_blank" rel="noopener noreferrer" class="text-primary font-medium hover:underline">A4</a> (DOC, 30 KB)</li>
+                        </ul>
+                    </div>
+                    <div class="bg-slate-50 dark:bg-white/5 rounded-2xl border border-slate-200 dark:border-white/10 p-6 md:p-8 mb-8">
+                        <h4 class="text-lg font-bold mb-4">LaTeX</h4>
+                        <p class="text-sm opacity-70 mb-3">Use the template’s <strong>conference</strong> mode. Instructions and files:</p>
+                        <ul class="space-y-2 text-sm opacity-80">
+                            <li><a href="http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran/IEEEtran_HOWTO.pdf" target="_blank" rel="noopener noreferrer" class="text-primary font-medium hover:underline">LaTeX Template Instructions</a> (PDF, 63 KB)</li>
+                            <li><a href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-latex-template.zip" target="_blank" rel="noopener noreferrer" class="text-primary font-medium hover:underline">Template</a> (ZIP, 700 KB)</li>
+                            <li><a href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/IEEEtranBST2.zip" target="_blank" rel="noopener noreferrer" class="text-primary font-medium hover:underline">LaTeX Bibliography Files</a> (ZIP, 309 KB)</li>
+                        </ul>
+                    </div>
+                    <div class="bg-slate-50 dark:bg-white/5 rounded-2xl border border-slate-200 dark:border-white/10 p-6 md:p-8 mb-8">
+                        <h4 class="text-lg font-bold mb-4">Overleaf</h4>
+                        <p class="text-sm opacity-70 mb-3">The IEEE official template is available in Overleaf at:</p>
+                        <a href="https://www.overleaf.com/gallery/tagged/ieee-official" target="_blank" rel="noopener noreferrer" class="text-primary font-medium hover:underline text-sm">Overleaf – IEEE official templates</a>
+                    </div>
+                    <p class="text-sm opacity-70">
+                        For more details and updates, refer to the official IEEE site: <a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank" rel="noopener noreferrer" class="text-primary font-medium hover:underline">IEEE Conferences – Author Templates</a>.
+                    </p>
+                </div>
+
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                     <div class="p-8 border border-slate-200 dark:border-white/10 rounded-2xl hover:shadow-lg transition-shadow bg-background-light dark:bg-background-dark">
                         <div class="w-12 h-12 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6">
@@ -473,10 +501,10 @@
                         </div>
                         <h4 class="text-xl font-bold mb-3">Paper Format</h4>
                         <p class="opacity-70 leading-relaxed mb-4">
-                            Authors are required to prepare their manuscripts according to the IEEE double-column conference format.
+                            Authors are required to prepare their manuscripts according to the IEEE double-column conference format. Use the templates above.
                         </p>
-                        <a href="#" class="text-primary font-bold text-sm hover:underline flex items-center gap-1">
-                            Download IEEE Template <span class="material-symbols-outlined text-sm">arrow_outward</span>
+                        <a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank" rel="noopener noreferrer" class="text-primary font-bold text-sm hover:underline flex items-center gap-1">
+                            IEEE Templates (official) <span class="material-symbols-outlined text-sm">arrow_outward</span>
                         </a>
                     </div>
         
@@ -640,6 +668,17 @@
     </main>
 
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".vanilla-tilt"), {
+        max: 8,              // Max tilt angle
+        speed: 400,          // Speed of the effect
+        glare: true,         // Add a light glare effect
+        "max-glare": 0.3,    // Opacity of the glare
+        scale: 1.02          // Slight zoom on hover
+    });
+</script>
     <script src="script.js"></script>
 </body>
 </html>
