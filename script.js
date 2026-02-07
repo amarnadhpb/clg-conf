@@ -40,7 +40,7 @@ const SPEAKERS = [
     },
     {
         name: "Dr Rubell Marion Lincy",
-        designation: "HOD, Dept. of Computer Science & Engineering,IIIT Kottayam",
+        designation: "HOD, Dept. of Computer Science & Engineering, IIIT Kottayam, India",
         topic: "Quantum Computing",
         image: "assets/speakers/speaker2.jpeg"
     },
@@ -58,13 +58,13 @@ const SPEAKERS = [
     },
      {
         name: "Dr. Sreekanth K. J",
-        designation: "Research Scientist, Kuwait Institute for Scientific Research",
+        designation: "Research Scientist, Kuwait Institute for Scientific Research, Kuwait",
         topic: "xxxxxxxxxxxxxx",
         image: "assets/speakers/speaker1.jpeg" 
     },
     {
         name: "Dr. Toby Cumberbatch",
-        designation: "Chair IEEE Smart Village Education Committee",
+        designation: "Chair IEEE Smart Village Education Committee, USA",
         topic: "xxxxxxxxxxxxxx",
         image: "assets/speakers/speaker9.jpg" 
     },
@@ -76,12 +76,12 @@ const SPEAKERS = [
     },
     {
         name: "Dr. Achuthsankar S Nair",
-        designation: "Former Professor & HOD of Bioinformatics,University of Kerala",
+        designation: "Former Professor & HOD of Bioinformatics,University of Kerala, India",
         topic: "xxxxxxxxxxxxxx",
         image: "assets/speakers/speaker6.png" 
     },
     { name: "Dr. Soman K. P",
-      designation: "Dean, School of Artificial Intelligence,Amrita Viswa Vidyapeetham, Coimbatore",
+      designation: "Dean, School of Artificial Intelligence,Amrita Viswa Vidyapeetham, Coimbatore, India",
       topic: "xxxxxxxxxxxxxxx",
       image: "assets/speakers/speaker10.jpg",
     },
