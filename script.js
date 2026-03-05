@@ -131,6 +131,7 @@ const ADVISORY_COMMITTEE = [
     { name: "Dr. V N Krishnachandran", role: "Professor Emeritus", institution: "Sreepathy Institute of Management and Technology, Palakkad" },
     { name: "Dr. Soman K. P", role: "Dean, School of Artificial Intelligence", institution: "Amrita Viswa Vidyapeetham, Coimbatore" },
     { name: "Dr. A Jaya",role: "Professor & Director (CDOE)", institution: "BSAR Crescent Institute of Science and Technology, Chennai" },
+    { name: "Dr. Pulickel M Ajayan",role: "Professor", institution: "Rice University, Houston, USA" },
 ];
 
 // ========================================
