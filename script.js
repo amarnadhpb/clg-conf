@@ -52,7 +52,7 @@ const SPEAKERS = [
     },
     {
         name: "Dr. Padmakumar Nair",
-        designation: "Vice Chancellor, Thapar Institute of Engineering and Technology, Punjab",
+        designation: "Vice Chancellor, Thapar Institute of Engineering and Technology, Punjab, India",
         topic: "xxxxxxxxxxxxxx",
         image: "assets/speakers/speaker4.png"
     },
@@ -98,7 +98,7 @@ const ORGANIZING_COMMITTEE = [
     { name: "Dr. Sunitha C", role: "Organising Chair, Principal", institution: "Vidya Academy of Science & Technology" },
     { name: "Dr. Jeeva K. A", role: "HoD, AIML (Coordinator)", institution: "Vidya Academy of Science & Technology" },
     { name: "Dr. Reji C Joy", role: "HoD, MCA (Coordinator)", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. Anjalu P Sasidharan", role: "Assoc. Professor, CE", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Anjali P Sasidharan", role: "Assoc. Professor, CE", institution: "Vidya Academy of Science & Technology" },
     { name: "Dr. Sanaj M. S", role: "Professor, CSE", institution: "Vidya Academy of Science & Technology" },
     { name: "Dr. Shameem S", role: "Assoc. Professor, CSE", institution: "Vidya Academy of Science & Technology" },
     { name: "Ms. Riya Roy", role: "Asst. Professor, AI & ML", institution: "Vidya Academy of Science & Technology" },
@@ -111,9 +111,9 @@ const ORGANIZING_COMMITTEE = [
 const TECHNICAL_COMMITTEE = [
     { name: "Dr. Sreekanth K. J", role: "Research Scientist", institution: "Kuwait Institute for Scientific Research, Kuwait" },
     { name: "Dr. Anna Charly", role: "Faculty of Science and Engineering", institution: "University of Liverpool, U.K." },
-    { name: "Dr. Harigovindan V. P", role: "Professor & Dean", institution: "NIT Puducherry" },
+    { name: "Dr. Harigovindan V. P", role: "Professor & Dean", institution: "NIT Puducherry, India" },
     { name: "Dr. Sudha Balagopalan", role: "Professor, EEE, Director (Outreach & Professional Development)", institution: "Christ College of Engineering" },
-    { name: "Dr. Sachin Kumar S", role: "Asst. Professor and Research Head", institution: "Amrita School of Artificial Intelligence, Coimbatore" },
+    { name: "Dr. Sachin Kumar S", role: "Asst. Professor and Research Head", institution: "Amrita School of Artificial Intelligence, Coimbatore, India" },
     { name: "Dr. Nithin Padmanabhan", role: "Senior Research Engineer", institution: "Electric Power Research Institute (EPRI), Canada" },
     { name: "Dr. Sooraj K Prabha", role: "Professor, Department of Mechanical Engineering", institution: "Vidya Academy of Science and Technology, Thrissur" },
 ];
