@@ -33,13 +33,13 @@ const IMPORTANT_DATES = [
 
 const SPEAKERS = [
     {
-        name: "Sri. Laj Lal",
-        designation: "Build Engineer, Apple, Japan",
+        name: "Sri. Pramodkumar Karunalayam",
+        designation: "Digital Transformation Evangelist, AI Strategist, Philip Morris, Japan",
         topic: "xxxxxxxxxxxxxx",
-        image: "assets/speakers/speaker5.jpeg"
+        image: "assets/speakers/speaker10.jpeg"
     },
     {
-        name: "Dr Rubell Marion Lincy",
+        name: "Dr Rubell Marion Lincy G",
         designation: "HOD, Dept. of Computer Science & Engineering, IIIT Kottayam, India",
         topic: "Quantum Computing",
         image: "assets/speakers/speaker2.jpeg"
@@ -56,34 +56,35 @@ const SPEAKERS = [
         topic: "xxxxxxxxxxxxxx",
         image: "assets/speakers/speaker4.png"
     },
-     {
+    {
         name: "Dr. Sreekanth K. J",
         designation: "Research Scientist, Kuwait Institute for Scientific Research, Kuwait",
         topic: "xxxxxxxxxxxxxx",
-        image: "assets/speakers/speaker1.jpeg" 
+        image: "assets/speakers/speaker1.jpeg"
     },
     {
         name: "Dr. Toby Cumberbatch",
         designation: "Chair IEEE Smart Village Education Committee, USA",
         topic: "xxxxxxxxxxxxxx",
-        image: "assets/speakers/speaker9.jpg" 
+        image: "assets/speakers/speaker9.jpg"
     },
     {
         name: "Dr. Anna Charly",
         designation: "Faculty of Science and Engineering, University of Liverpool, U.K.",
         topic: "xxxxxxxxxxxxxx",
-        image: "assets/speakers/speaker8.jpeg" 
+        image: "assets/speakers/speaker8.jpeg"
     },
     {
         name: "Dr. Achuthsankar S Nair",
         designation: "Former Professor & HOD of Bioinformatics,University of Kerala, India",
         topic: "xxxxxxxxxxxxxx",
-        image: "assets/speakers/speaker6.png" 
+        image: "assets/speakers/speaker6.png"
     },
-    { name: "Dr. Soman K. P",
-      designation: "Dean, School of Artificial Intelligence,Amrita Viswa Vidyapeetham, Coimbatore, India",
-      topic: "xxxxxxxxxxxxxxx",
-      image: "assets/speakers/speaker10.jpg",
+    {
+        name: "Dr. Soman K. P",
+        designation: "Dean, School of Artificial Intelligence,Amrita Viswa Vidyapeetham, Coimbatore, India",
+        topic: "xxxxxxxxxxxxxxx",
+        image: "assets/speakers/speaker10.jpg",
     },
 ];
 
@@ -143,7 +144,7 @@ const ADVISORY_COMMITTEE = [
 function renderDates() {
     const container = document.getElementById('dates-container');
     if (!container) return;
-    
+
     container.innerHTML = IMPORTANT_DATES.map(item => `
         <div class="p-6 bg-white dark:bg-white/5 border border-slate-200 dark:border-white/10 rounded-xl hover:border-primary transition-colors group">
             <div class="text-xs font-bold uppercase tracking-wider text-primary mb-2 opacity-60 group-hover:opacity-100">${item.title}</div>
@@ -236,15 +237,15 @@ function updateCountdown() {
     const eventDate = new Date(TARGET_DATE).getTime();
     const now = new Date().getTime();
     const distance = eventDate - now;
-    
+
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
     const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
+
     ['days', 'hours', 'minutes', 'seconds'].forEach((id, i) => {
         const el = document.getElementById(id);
-        if(el) el.textContent = String(Math.max(0, [days,hours,minutes,seconds][i])).padStart(2, '0');
+        if (el) el.textContent = String(Math.max(0, [days, hours, minutes, seconds][i])).padStart(2, '0');
     });
 }
 
@@ -294,12 +295,12 @@ document.addEventListener('DOMContentLoaded', () => {
     setInterval(updateCountdown, 1000);
     setupScheduleTabs();
     setupCommitteeTabs();
-    
+
     // Mobile Menu
     const menuBtn = document.getElementById('mobile-menu-btn');
     const menu = document.getElementById('mobile-menu');
     const backdrop = document.getElementById('mobile-menu-backdrop');
-    
+
     function toggleMobileMenu() {
         const isHidden = menu.classList.contains('hidden');
         if (isHidden) {
@@ -314,16 +315,16 @@ document.addEventListener('DOMContentLoaded', () => {
             document.body.style.overflow = ''; // Restore scrolling
         }
     }
-    
-    if(menuBtn) {
+
+    if (menuBtn) {
         menuBtn.addEventListener('click', toggleMobileMenu);
     }
-    
+
     // Close menu when clicking backdrop
-    if(backdrop) {
+    if (backdrop) {
         backdrop.addEventListener('click', toggleMobileMenu);
     }
-    
+
     // Close menu when clicking menu links
     const menuLinks = menu?.querySelectorAll('a');
     menuLinks?.forEach(link => {
@@ -342,5 +343,5 @@ document.addEventListener('DOMContentLoaded', () => {
         bannerEl.textContent = repeated;
     }
 
-    
+
 });
