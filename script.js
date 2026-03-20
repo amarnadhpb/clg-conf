@@ -28,7 +28,7 @@ const IMPORTANT_DATES = [
     { title: "Final Paper Submission", date: "25 April 2026" },
     // { title: "Early Bird Registration", date: "24 February 2026" },
     { title: "Conference Dates", date: "June 26-27, 2026" },
-    { title: "Late Date For Registration", date: "10 June 2026" }
+    { title: "Last Date For Registration", date: "10 June 2026" }
 ];
 
 const SPEAKERS = [
