@@ -99,6 +99,12 @@ const ORGANIZING_COMMITTEE = [
     { name: "Dr. Sunitha C", role: "Organising Chair, Principal", institution: "Vidya Academy of Science & Technology" },
     { name: "Dr. Jeeva K. A", role: "HoD, AIML (Coordinator)", institution: "Vidya Academy of Science & Technology" },
     { name: "Dr. Reji C Joy", role: "HoD, MCA (Coordinator)", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Sajay K R", role: "HoD, CSE (Coordinator)", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Rakesh Hari", role: "HoD, MECH (Coordinator)", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. S Swapna Kumar", role: "HoD, ECE (Coordinator)", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Mary P. Varghese", role: "HoD, EEE (Coordinator)", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr Abhilasha P. S.", role: "HoD, CIVIL (Coordinator)", institution: "Vidya Academy of Science & Technology" },
+
     { name: "Dr. Anjali P Sasidharan", role: "Assoc. Professor, CE", institution: "Vidya Academy of Science & Technology" },
     { name: "Dr. Sanaj M. S", role: "Professor, CSE", institution: "Vidya Academy of Science & Technology" },
     { name: "Dr. Shameem S", role: "Assoc. Professor, CSE", institution: "Vidya Academy of Science & Technology" },
@@ -117,6 +123,13 @@ const TECHNICAL_COMMITTEE = [
     { name: "Dr. Sachin Kumar S", role: "Asst. Professor and Research Head", institution: "Amrita School of Artificial Intelligence, Coimbatore, India" },
     { name: "Dr. Nithin Padmanabhan", role: "Senior Research Engineer", institution: "Electric Power Research Institute (EPRI), Canada" },
     { name: "Dr. Sooraj K Prabha", role: "Professor, Department of Mechanical Engineering", institution: "Vidya Academy of Science and Technology, Thrissur" },
+    { name: "Dr. Jeeva K. A", role: "HoD, AIML (Coordinator)", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Reji C Joy", role: "HoD, MCA (Coordinator)", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Sajay K R", role: "HoD, CSE (Coordinator)", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Rakesh Hari", role: "HoD, MECH (Coordinator)", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. S Swapna Kumar", role: "HoD, ECE (Coordinator)", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Mary P. Varghese", role: "HoD, EEE (Coordinator)", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr Abhilasha P. S.", role: "HoD, CIVIL (Coordinator)", institution: "Vidya Academy of Science & Technology" },
 ];
 
 const ADVISORY_COMMITTEE = [
@@ -135,6 +148,12 @@ const ADVISORY_COMMITTEE = [
     { name: "Dr. Shailesh Sivan", role: "Principal AI Architect", institution: "University of Madras" },
     { name: "Dr. V N Krishnachandran", role: "Professor Emeritus", institution: "Sreepathy Institute of Management and Technology, Palakkad" },
     { name: "Dr. Soman K. P", role: "Dean, School of Artificial Intelligence", institution: "Amrita Viswa Vidyapeetham, Coimbatore" },
+];
+
+const EDITORIAL_BOARD = [
+    { name: "Dr. Sreekanth K. J", role: "Research Scientist", institution: "Kuwait Institute for Scientific Research, Kuwait" },
+    { name: "Dr. Sooraj K Prabha", role: "Professor, Department of Mechanical Engineering", institution: "Vidya Academy of Science and Technology, Thrissur" },
+    { name: "Dr. Siju K. C", role: "Professor, Department of Applied Science", institution: "Vidya Academy of Science and Technology, Thrissur" }
 ];
 
 // ========================================
@@ -177,6 +196,7 @@ function renderCommittee(type) {
         organizing: { id: 'organizing-grid', data: ORGANIZING_COMMITTEE },
         technical: { id: 'technical-grid', data: TECHNICAL_COMMITTEE },
         advisory: { id: 'advisory-grid', data: ADVISORY_COMMITTEE },
+        editorial: { id: 'editorial-grid', data: EDITORIAL_BOARD },
         patrons: { id: 'patrons-grid', data: PATRONS },
     };
 
@@ -288,6 +308,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderCommittee('organizing');
     renderCommittee('technical');
     renderCommittee('advisory');
+    renderCommittee('editorial');
     renderCommittee('patrons');
 
     // Logic
