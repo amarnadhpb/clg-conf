@@ -571,26 +571,31 @@
                     </p>
                 </div>
 
-                <div class="max-w-3xl mx-auto mb-10">
+                <div class="max-w-5xl mx-auto mb-10 overflow-x-auto flex justify-start lg:justify-center px-4">
                     <div
-                        class="inline-flex flex-wrap gap-2 justify-center rounded-full bg-slate-100/80 dark:bg-white/5 p-1.5">
+                        class="inline-flex gap-2 rounded-full bg-slate-100/80 dark:bg-white/5 p-1.5 min-w-max mx-auto">
                         <button
-                            class="committee-tab active px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-semibold bg-primary text-white shadow-sm"
+                            class="committee-tab active px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-semibold bg-primary text-white shadow-sm whitespace-nowrap shrink-0"
                             data-target="organizing-grid">
                             Organising Committee
                         </button>
                         <button
-                            class="committee-tab px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-semibold bg-white dark:bg-transparent text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-white/10 border border-transparent hover:border-primary/40"
+                            class="committee-tab px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-semibold bg-white dark:bg-transparent text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-white/10 border border-transparent hover:border-primary/40 whitespace-nowrap shrink-0"
                             data-target="technical-grid">
                             Technical Committee
                         </button>
                         <button
-                            class="committee-tab px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-semibold bg-white dark:bg-transparent text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-white/10 border border-transparent hover:border-primary/40"
+                            class="committee-tab px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-semibold bg-white dark:bg-transparent text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-white/10 border border-transparent hover:border-primary/40 whitespace-nowrap shrink-0"
                             data-target="advisory-grid">
                             Advisory Committee
                         </button>
                         <button
-                            class="committee-tab px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-semibold bg-white dark:bg-transparent text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-white/10 border border-transparent hover:border-primary/40"
+                            class="committee-tab px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-semibold bg-white dark:bg-transparent text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-white/10 border border-transparent hover:border-primary/40 whitespace-nowrap shrink-0"
+                            data-target="editorial-grid">
+                            Editorial Board
+                        </button>
+                        <button
+                            class="committee-tab px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-semibold bg-white dark:bg-transparent text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-white/10 border border-transparent hover:border-primary/40 whitespace-nowrap shrink-0"
                             data-target="patrons-grid">
                             Patrons
                         </button>
@@ -601,6 +606,7 @@
                     <div id="organizing-grid" class="committee-panel grid grid-cols-1 md:grid-cols-3 gap-6"></div>
                     <div id="technical-grid" class="committee-panel grid grid-cols-1 md:grid-cols-3 gap-6 hidden"></div>
                     <div id="advisory-grid" class="committee-panel grid grid-cols-1 md:grid-cols-3 gap-6 hidden"></div>
+                    <div id="editorial-grid" class="committee-panel grid grid-cols-1 md:grid-cols-3 gap-6 hidden"></div>
                     <div id="patrons-grid" class="committee-panel grid grid-cols-1 md:grid-cols-3 gap-6 hidden"></div>
                 </div>
             </div>
