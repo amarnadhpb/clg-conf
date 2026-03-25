@@ -113,7 +113,11 @@ const ORGANIZING_COMMITTEE = [
     { name: "Dr. Latha Dinesh", role: "Professor, EEE", institution: "Vidya Academy of Science & Technology" },
     { name: "Ms. Remya K. R", role: "Asst. Professor, ECE", institution: "Vidya Academy of Science & Technology" },
     { name: "Dr. Sooraj K Prabha", role: "Professor, ME", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. Siju K. C", role: "Assoc. Professor, Applied Sciences & Humanities", institution: "Vidya Academy of Science & Technology" }
+    { name: "Dr. Siju K. C", role: "Assoc. Professor, AS & H", institution: "Vidya Academy of Science & Technology" }
+    { name: "Mr. Paul J. Chakola ", role: "Placement Director", institution: "Vidya Academy of Science & Technology" },
+    { name: "Mr. Ramesh K.V", role: "Asso. Professor, Phy. Edu.", institution: "Vidya Academy of Science & Technology" },
+    { name: "Mr Girish Kumar P.C", role: "Librarian", institution: "Vidya Academy of Science & Technology" },
+    { name: "Mr.Surendran V K", role: "Manager, General Administration ", institution: "Vidya Academy of Science & Technology" },
 ];
 
 const TECHNICAL_COMMITTEE = [
