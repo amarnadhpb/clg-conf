@@ -35,55 +35,55 @@ const SPEAKERS = [
     {
         name: "Mr. Pramodkumar Karunalayam",
         designation: "Digital Transformation Evangelist, AI Strategist, Philip Morris, Japan",
-        topic: "",
+        topic: "Topic: Will be updated soon",
         image: "assets/speakers/speaker10.jpeg"
     },
     {
         name: "Dr. Rubell Marion Lincy G.",
         designation: "HOD, Dept. of Computer Science & Engineering, IIIT Kottayam, India",
-        topic: "",
+        topic: "Topic: Will be updated soon",
         image: "assets/speakers/speaker2.jpeg"
     },
     {
         name: "Prof. D. Sakthi Kumar",
         designation: "Graduate School of Interdisciplinary New Science, Toyo University, Japan",
-        topic: "",
+        topic: "Topic: Will be updated soon",
         image: "assets/speakers/speaker3.jpg"
     },
     {
         name: "Dr. Padmakumar Nair",
         designation: "Vice Chancellor, Thapar Institute of Engineering and Technology, Punjab, India",
-        topic: "",
+        topic: "Topic: Will be updated soon",
         image: "assets/speakers/speaker4.png"
     },
     {
         name: "Dr. Sreekanth K. J.",
         designation: "Research Scientist, Kuwait Institute for Scientific Research, Kuwait",
-        topic: "",
+        topic: "Topic: Will be updated soon",
         image: "assets/speakers/speaker1.jpeg"
     },
     {
         name: "Dr. Toby Cumberbatch",
         designation: "Chair IEEE Smart Village Education Committee, USA",
-        topic: "",
+        topic: "Topic: Will be updated soon",
         image: "assets/speakers/speaker9.jpg"
     },
     {
         name: "Dr. Anna Charly",
         designation: "Faculty of Science and Engineering, University of Liverpool, U.K.",
-        topic: "",
+        topic: "Topic: Will be updated soon",
         image: "assets/speakers/speaker8.jpeg"
     },
     {
-        name: "Dr. Achuthsankar S Nair",
+        name: "Dr. Achuthsankar S. Nair",
         designation: "Former Professor & HOD of Bioinformatics,University of Kerala, India",
-        topic: "",
+        topic: "Topic: Will be updated soon",
         image: "assets/speakers/speaker6.png"
     },
     {
         name: "Dr. Soman K. P.",
         designation: "Dean, School of Artificial Intelligence,Amrita Viswa Vidyapeetham, Coimbatore, India",
-        topic: "",
+        topic: "Topic: Will be updated soon",
         image: "assets/speakers/speaker10.jpg",
     },
 ];
@@ -93,7 +93,7 @@ const PATRONS = [
     { name: "Mr. Manu Reghurajan", role: "Secretary", institution: "VICT" },
     { name: "Dr. Shaji P. R.", role: "Academic Director", institution: "VICT" },
     { name: "Mr. Suresh Lal", role: "Executive Director", institution: "VICT" },
-    { name: "Mr. P N Unnirajan IPS (Retd.)", role: "Administrative Director", institution: "VICT" },
+    { name: "Mr. P. N. Unnirajan IPS", role: "Administrative Director", institution: "VICT" },
 ];
 
 const ORGANIZING_COMMITTEE = [
