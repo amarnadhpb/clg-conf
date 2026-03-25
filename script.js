@@ -33,57 +33,57 @@ const IMPORTANT_DATES = [
 
 const SPEAKERS = [
     {
-        name: "Sri. Pramodkumar Karunalayam",
+        name: "Mr. Pramodkumar Karunalayam",
         designation: "Digital Transformation Evangelist, AI Strategist, Philip Morris, Japan",
-        topic: "xxxxxxxxxxxxxx",
+        topic: "",
         image: "assets/speakers/speaker10.jpeg"
     },
     {
-        name: "Dr Rubell Marion Lincy G",
+        name: "Dr. Rubell Marion Lincy G.",
         designation: "HOD, Dept. of Computer Science & Engineering, IIIT Kottayam, India",
-        topic: "Quantum Computing",
+        topic: "",
         image: "assets/speakers/speaker2.jpeg"
     },
     {
         name: "Prof. D. Sakthi Kumar",
         designation: "Graduate School of Interdisciplinary New Science, Toyo University, Japan",
-        topic: "xxxxxxxxxxxxxx",
+        topic: "",
         image: "assets/speakers/speaker3.jpg"
     },
     {
         name: "Dr. Padmakumar Nair",
         designation: "Vice Chancellor, Thapar Institute of Engineering and Technology, Punjab, India",
-        topic: "xxxxxxxxxxxxxx",
+        topic: "",
         image: "assets/speakers/speaker4.png"
     },
     {
-        name: "Dr. Sreekanth K. J",
+        name: "Dr. Sreekanth K. J.",
         designation: "Research Scientist, Kuwait Institute for Scientific Research, Kuwait",
-        topic: "xxxxxxxxxxxxxx",
+        topic: "",
         image: "assets/speakers/speaker1.jpeg"
     },
     {
         name: "Dr. Toby Cumberbatch",
         designation: "Chair IEEE Smart Village Education Committee, USA",
-        topic: "xxxxxxxxxxxxxx",
+        topic: "",
         image: "assets/speakers/speaker9.jpg"
     },
     {
         name: "Dr. Anna Charly",
         designation: "Faculty of Science and Engineering, University of Liverpool, U.K.",
-        topic: "xxxxxxxxxxxxxx",
+        topic: "",
         image: "assets/speakers/speaker8.jpeg"
     },
     {
         name: "Dr. Achuthsankar S Nair",
         designation: "Former Professor & HOD of Bioinformatics,University of Kerala, India",
-        topic: "xxxxxxxxxxxxxx",
+        topic: "",
         image: "assets/speakers/speaker6.png"
     },
     {
-        name: "Dr. Soman K. P",
+        name: "Dr. Soman K. P.",
         designation: "Dean, School of Artificial Intelligence,Amrita Viswa Vidyapeetham, Coimbatore, India",
-        topic: "xxxxxxxxxxxxxxx",
+        topic: "",
         image: "assets/speakers/speaker10.jpg",
     },
 ];
@@ -91,50 +91,50 @@ const SPEAKERS = [
 const PATRONS = [
     { name: "Mr. Gireesh Kumar Malattiri", role: "Chairman", institution: "VICT" },
     { name: "Mr. Manu Reghurajan", role: "Secretary", institution: "VICT" },
-    { name: "Dr. Shaji P R", role: "Academic Director", institution: "VICT" },
+    { name: "Dr. Shaji P. R.", role: "Academic Director", institution: "VICT" },
     { name: "Mr. Suresh Lal", role: "Executive Director", institution: "VICT" },
     { name: "Mr. P N Unnirajan IPS (Retd.)", role: "Administrative Director", institution: "VICT" },
 ];
 
 const ORGANIZING_COMMITTEE = [
-    { name: "Dr. Sunitha C", role: "Organising Chair, Principal", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. Jeeva K. A", role: "HoD, AIML (Coordinator)", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Sunitha C.", role: "Organising Chair, Principal", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Jeeva K. A.", role: "HoD, AIML (Coordinator)", institution: "Vidya Academy of Science & Technology" },
     { name: "Dr. Reji C Joy", role: "HoD, MCA (Coordinator)", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. Sajay K R", role: "HoD, CSE (Coordinator)", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. Rakesh Hari", role: "HoD, MECH (Coordinator)", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. S Swapna Kumar", role: "HoD, ECE (Coordinator)", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. Mary P. Varghese", role: "HoD, EEE (Coordinator)", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr Abhilasha P. S.", role: "HoD, CIVIL (Coordinator)", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Sajay K. R.", role: "HoD, CSE ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Rakesh Hari", role: "HoD, ME ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. S. Swapna Kumar", role: "HoD, ECE ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Mary P. Varghese", role: "HoD, EEE ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr Abhilasha P. S.", role: "HoD, CE ", institution: "Vidya Academy of Science & Technology" },
 
     { name: "Dr. Anjali P Sasidharan", role: "Assoc. Professor, CE", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. Sanaj M. S", role: "Professor, CSE", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. Shameem S", role: "Assoc. Professor, CSE", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Sanaj M. S.", role: "Professor, CSE", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Shameem S.", role: "Assoc. Professor, CSE", institution: "Vidya Academy of Science & Technology" },
     { name: "Ms. Riya Roy", role: "Asst. Professor, AI & ML", institution: "Vidya Academy of Science & Technology" },
     { name: "Dr. Latha Dinesh", role: "Professor, EEE", institution: "Vidya Academy of Science & Technology" },
-    { name: "Ms. Remya K. R", role: "Asst. Professor, ECE", institution: "Vidya Academy of Science & Technology" },
+    { name: "Ms. Remya K. R.", role: "Asst. Professor, ECE", institution: "Vidya Academy of Science & Technology" },
     { name: "Dr. Sooraj K Prabha", role: "Professor, ME", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. Siju K. C", role: "Assoc. Professor, AS & H", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Siju K. C.", role: "Assoc. Professor, AS & H", institution: "Vidya Academy of Science & Technology" },
     { name: "Mr. Paul J. Chakola ", role: "Placement Director", institution: "Vidya Academy of Science & Technology" },
-    { name: "Mr. Ramesh K.V", role: "Asso. Professor, Phy. Edu.", institution: "Vidya Academy of Science & Technology" },
-    { name: "Mr Girish Kumar P.C", role: "Librarian", institution: "Vidya Academy of Science & Technology" },
-    { name: "Mr.Surendran V K", role: "Manager, General Administration ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Mr. Ramesh K. V.", role: "Asso. Professor, Phy. Edu.", institution: "Vidya Academy of Science & Technology" },
+    { name: "Mr. Girish Kumar P.C.", role: "Librarian", institution: "Vidya Academy of Science & Technology" },
+    { name: "Mr.Surendran V. K.", role: "Manager, General Administration ", institution: "Vidya Academy of Science & Technology" },
 ];
 
 const TECHNICAL_COMMITTEE = [
     { name: "Dr. Sreekanth K. J", role: "Research Scientist", institution: "Kuwait Institute for Scientific Research, Kuwait" },
     { name: "Dr. Anna Charly", role: "Faculty of Science and Engineering", institution: "University of Liverpool, U.K." },
-    { name: "Dr. Harigovindan V. P", role: "Professor & Dean", institution: "NIT Puducherry, India" },
+    { name: "Dr. Harigovindan V. P.", role: "Professor & Dean", institution: "NIT Puducherry, India" },
     { name: "Dr. Sudha Balagopalan", role: "Professor, EEE, Director (Outreach & Professional Development)", institution: "Christ College of Engineering" },
-    { name: "Dr. Sachin Kumar S", role: "Asst. Professor and Research Head", institution: "Amrita School of Artificial Intelligence, Coimbatore, India" },
+    { name: "Dr. Sachin Kumar S.", role: "Asst. Professor and Research Head", institution: "Amrita School of Artificial Intelligence, Coimbatore, India" },
     { name: "Dr. Nithin Padmanabhan", role: "Senior Research Engineer", institution: "Electric Power Research Institute (EPRI), Canada" },
     { name: "Dr. Sooraj K Prabha", role: "Professor, Department of Mechanical Engineering", institution: "Vidya Academy of Science and Technology, Thrissur" },
-    { name: "Dr. Jeeva K. A", role: "HoD, AIML (Coordinator)", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. Reji C Joy", role: "HoD, MCA (Coordinator)", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. Sajay K R", role: "HoD, CSE (Coordinator)", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. Rakesh Hari", role: "HoD, MECH (Coordinator)", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. S Swapna Kumar", role: "HoD, ECE (Coordinator)", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. Mary P. Varghese", role: "HoD, EEE (Coordinator)", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr Abhilasha P. S.", role: "HoD, CIVIL (Coordinator)", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Jeeva K. A.", role: "HoD, AI & ML ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Reji C Joy", role: "HoD, MCA ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Sajay K. R.", role: "HoD, CSE ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Rakesh Hari", role: "HoD, ME ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. S Swapna Kumar", role: "HoD, ECE ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Mary P. Varghese", role: "HoD, EEE ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr Abhilasha P. S.", role: "HoD, CE ", institution: "Vidya Academy of Science & Technology" },
 ];
 
 const ADVISORY_COMMITTEE = [
@@ -142,18 +142,18 @@ const ADVISORY_COMMITTEE = [
     { name: "Dr. Toby Cumberbatch", role: "Chair, IEEE Smart Village Education Committee", institution: "" },
     { name: "Dr. Padmakumar Nair", role: "Vice Chancellor", institution: "Thapar Institute of Engineering and Technology, Punjab, India" },
     { name: "Dr. Shashi Nambisan", role: "Director, Transportation Research Center; Professor of Civil Engineering", institution: "University of Nevada–Las Vegas, USA" },
-    { name: "Pramodkumar Karunalayam", role: "Digital Transformation Evangelist, AI Strategist", institution: "Philip Morris, Japan" },
+    { name: "Mr. Pramodkumar Karunalayam", role: "Digital Transformation Evangelist, AI Strategist", institution: "Philip Morris, Japan" },
     { name: "Dr. Digvijay S. Pawar", role: "Associate Professor", institution: "IIT Hyderabad" },
     { name: "Dr. Achuthsankar S. Nair", role: "Former Professor and Head, Dept. of Bioinformatics", institution: "University of Kerala, India" },
-    { name: "Prof. Gayathri Bharathan", role: "Assistant Professor, Optics and Photonics Centre", institution: "IIIT Delhi" },
+    { name: "Dr. Gayathri Bharathan", role: "Assistant Professor, Optics and Photonics Centre", institution: "IIT Delhi" },
     { name: "Dr. P Pratapachandran Nair", role: "Former Principal & Professor Emeritus", institution: "VAST" },
     { name: "Dr. A. Jaya", role: "Professor & Director (CDOE)", institution: "BSAR Crescent Institute of Science and Technology, Chennai" },
-    { name: "Sri. Laj Lal", role: "Build Engineer", institution: "Apple, Japan" },
+    { name: "Mr. Laj Lal", role: "Build Engineer", institution: "Apple, Japan" },
     { name: "Dr. Shailesh Sivan", role: "Principal AI Architect", institution: "University of Madras" },
-    { name: "Dr. V N Krishnachandran", role: "Professor Emeritus", institution: "Sreepathy Institute of Management and Technology, Palakkad" },
+    { name: "Dr. V. N. Krishnachandran", role: "Professor Emeritus", institution: "Sreepathy Institute of Management and Technology, Palakkad" },
     { name: "Dr. Soman K. P", role: "Dean, School of Artificial Intelligence", institution: "Amrita Viswa Vidyapeetham, Coimbatore" },
     { name: "Dr. Harigovindan V. P", role: "Professor & Dean", institution: "NIT Puducherry" },
-    { name: "Sri. Zaher Abdulrahman", role: "Electronics Lead Engineer", institution: "Jaguar Land Rover Ltd., Germany" },
+    { name: "Mr. Zaher Abdulrahman", role: "Electronics Lead Engineer", institution: "Jaguar Land Rover Ltd., Germany" },
 ];
 
 const EDITORIAL_BOARD = [
