@@ -93,6 +93,7 @@ const PATRONS = [
     { name: "Mr. Manu Reghurajan", role: "Secretary", institution: "VICT" },
     { name: "Dr. Shaji P R", role: "Academic Director", institution: "VICT" },
     { name: "Mr. Suresh Lal", role: "Executive Director", institution: "VICT" },
+    { name: "Mr. P N Unnirajan IPS (Retd.)", role: "Administrative Director", institution: "VICT" },
 ];
 
 const ORGANIZING_COMMITTEE = [
@@ -141,13 +142,14 @@ const ADVISORY_COMMITTEE = [
     { name: "Dr. Digvijay S. Pawar", role: "Associate Professor", institution: "IIT Hyderabad" },
     { name: "Dr. Achuthsankar S. Nair", role: "Former Professor and Head, Dept. of Bioinformatics", institution: "University of Kerala, India" },
     { name: "Prof. Gayathri Bharathan", role: "Assistant Professor, Optics and Photonics Centre", institution: "IIIT Delhi" },
-    { name: "Sri. Laj Lal", role: "Build Engineer", institution: "Apple, Japan" },
+    { name: "Dr. P Pratapachandran Nair", role: "Former Principal & Professor Emeritus", institution: "VAST" },
     { name: "Dr. A. Jaya", role: "Professor & Director (CDOE)", institution: "BSAR Crescent Institute of Science and Technology, Chennai" },
-    { name: "Dr. Harigovindan V. P", role: "Professor & Dean", institution: "NIT Puducherry" },
-    { name: "Sri. Zaher Abdulrahman", role: "Electronics Lead Engineer", institution: "Jaguar Land Rover Ltd., Germany" },
+    { name: "Sri. Laj Lal", role: "Build Engineer", institution: "Apple, Japan" },
     { name: "Dr. Shailesh Sivan", role: "Principal AI Architect", institution: "University of Madras" },
     { name: "Dr. V N Krishnachandran", role: "Professor Emeritus", institution: "Sreepathy Institute of Management and Technology, Palakkad" },
     { name: "Dr. Soman K. P", role: "Dean, School of Artificial Intelligence", institution: "Amrita Viswa Vidyapeetham, Coimbatore" },
+    { name: "Dr. Harigovindan V. P", role: "Professor & Dean", institution: "NIT Puducherry" },
+    { name: "Sri. Zaher Abdulrahman", role: "Electronics Lead Engineer", institution: "Jaguar Land Rover Ltd., Germany" },
 ];
 
 const EDITORIAL_BOARD = [
