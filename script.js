@@ -118,6 +118,7 @@ const ORGANIZING_COMMITTEE = [
     { name: "Mr. Ramesh K. V.", role: "Asso. Professor, Phy. Edu.", institution: "Vidya Academy of Science & Technology" },
     { name: "Mr. Girish Kumar P.C.", role: "Librarian", institution: "Vidya Academy of Science & Technology" },
     { name: "Mr. Surendran V. K.", role: "Manager, General Administration ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Mr. Manesh D.", role: "Asst. Professor, MCA ", institution: "Vidya Academy of Science & Technology" },
 ];
 
 const TECHNICAL_COMMITTEE = [
