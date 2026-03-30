@@ -28,94 +28,114 @@ const IMPORTANT_DATES = [
     { title: "Final Paper Submission", date: "25 April 2026" },
     // { title: "Early Bird Registration", date: "24 February 2026" },
     { title: "Conference Dates", date: "June 26-27, 2026" },
-    { title: "Late Date For Registration", date: "10 June 2026" }
+    { title: "Last Date For Registration", date: "10 June 2026" }
 ];
 
 const SPEAKERS = [
     {
-        name: "Sri. Laj Lal",
-        designation: "Build Engineer, Apple, Japan",
-        topic: "xxxxxxxxxxxxxx",
-        image: "assets/speakers/speaker5.jpeg"
+        name: "Mr. Pramodkumar Karunalayam",
+        designation: "Digital Transformation Evangelist, AI Strategist, Philip Morris, Japan",
+        topic: "Topic: Will be updated soon",
+        image: "assets/speakers/speaker11.jpeg"
     },
     {
-        name: "Dr Rubell Marion Lincy",
+        name: "Dr. Rubell Marion Lincy G.",
         designation: "HOD, Dept. of Computer Science & Engineering, IIIT Kottayam, India",
-        topic: "Quantum Computing",
+        topic: "Topic: Will be updated soon",
         image: "assets/speakers/speaker2.jpeg"
     },
     {
         name: "Prof. D. Sakthi Kumar",
         designation: "Graduate School of Interdisciplinary New Science, Toyo University, Japan",
-        topic: "xxxxxxxxxxxxxx",
+        topic: "Topic: Will be updated soon",
         image: "assets/speakers/speaker3.jpg"
     },
     {
         name: "Dr. Padmakumar Nair",
         designation: "Vice Chancellor, Thapar Institute of Engineering and Technology, Punjab, India",
-        topic: "xxxxxxxxxxxxxx",
+        topic: "Topic: Will be updated soon",
         image: "assets/speakers/speaker4.png"
     },
-     {
-        name: "Dr. Sreekanth K. J",
+    {
+        name: "Dr. Sreekanth K. J.",
         designation: "Research Scientist, Kuwait Institute for Scientific Research, Kuwait",
-        topic: "xxxxxxxxxxxxxx",
-        image: "assets/speakers/speaker1.jpeg" 
+        topic: "Topic: Will be updated soon",
+        image: "assets/speakers/speaker1.jpeg"
     },
     {
         name: "Dr. Toby Cumberbatch",
         designation: "Chair IEEE Smart Village Education Committee, USA",
-        topic: "xxxxxxxxxxxxxx",
-        image: "assets/speakers/speaker9.jpg" 
+        topic: "Topic: Will be updated soon",
+        image: "assets/speakers/speaker9.jpg"
     },
     {
         name: "Dr. Anna Charly",
         designation: "Faculty of Science and Engineering, University of Liverpool, U.K.",
-        topic: "xxxxxxxxxxxxxx",
-        image: "assets/speakers/speaker8.jpeg" 
+        topic: "Topic: Will be updated soon",
+        image: "assets/speakers/speaker8.jpeg"
     },
     {
-        name: "Dr. Achuthsankar S Nair",
+        name: "Dr. Achuthsankar S. Nair",
         designation: "Former Professor & HOD of Bioinformatics,University of Kerala, India",
-        topic: "xxxxxxxxxxxxxx",
-        image: "assets/speakers/speaker6.png" 
+        topic: "Topic: Will be updated soon",
+        image: "assets/speakers/speaker6.png"
     },
-    { name: "Dr. Soman K. P",
-      designation: "Dean, School of Artificial Intelligence,Amrita Viswa Vidyapeetham, Coimbatore, India",
-      topic: "xxxxxxxxxxxxxxx",
-      image: "assets/speakers/speaker10.jpg",
+    {
+        name: "Dr. Soman K. P.",
+        designation: "Dean, School of Artificial Intelligence,Amrita Viswa Vidyapeetham, Coimbatore, India",
+        topic: "Topic: Will be updated soon",
+        image: "assets/speakers/speaker10.jpg",
     },
 ];
 
 const PATRONS = [
     { name: "Mr. Gireesh Kumar Malattiri", role: "Chairman", institution: "VICT" },
     { name: "Mr. Manu Reghurajan", role: "Secretary", institution: "VICT" },
-    { name: "Dr. Shaji P R", role: "Academic Director", institution: "VICT" },
+    { name: "Dr. Shalij P. R.", role: "Academic Director", institution: "VICT" },
     { name: "Mr. Suresh Lal", role: "Executive Director", institution: "VICT" },
+    { name: "Mr. P. N. Unnirajan, IPS", role: "Administrative Director", institution: "VICT" },
 ];
 
 const ORGANIZING_COMMITTEE = [
-    { name: "Dr. Sunitha C", role: "Organising Chair, Principal", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. Jeeva K. A", role: "HoD, AIML (Coordinator)", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. Reji C Joy", role: "HoD, MCA (Coordinator)", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Sunitha C.", role: "Organising Chair, Principal", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Jeeva K. A.", role: "HoD, AIML (Coordinator)", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Reji C. Joy", role: "HoD, MCA (Coordinator)", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Sajay K. R.", role: "HoD, CSE ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Rakesh Hari", role: "HoD, ME ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. S. Swapna Kumar", role: "HoD, ECE ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Mary P. Varghese", role: "HoD, EEE ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Abhilasha P. S.", role: "HoD, CE ", institution: "Vidya Academy of Science & Technology" },
+
     { name: "Dr. Anjali P Sasidharan", role: "Assoc. Professor, CE", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. Sanaj M. S", role: "Professor, CSE", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. Shameem S", role: "Assoc. Professor, CSE", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Sanaj M. S.", role: "Professor, CSE", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Shameem S.", role: "Assoc. Professor, CSE", institution: "Vidya Academy of Science & Technology" },
     { name: "Ms. Riya Roy", role: "Asst. Professor, AI & ML", institution: "Vidya Academy of Science & Technology" },
     { name: "Dr. Latha Dinesh", role: "Professor, EEE", institution: "Vidya Academy of Science & Technology" },
-    { name: "Ms. Remya K. R", role: "Asst. Professor, ECE", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. Sooraj K Prabha", role: "Professor, ME", institution: "Vidya Academy of Science & Technology" },
-    { name: "Dr. Siju K. C", role: "Assoc. Professor, Applied Sciences & Humanities", institution: "Vidya Academy of Science & Technology" }
+    { name: "Ms. Remya K. R.", role: "Asst. Professor, ECE", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Sooraj K. Prabha", role: "Professor, ME", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Siju K. C.", role: "Assoc. Professor, AS & H", institution: "Vidya Academy of Science & Technology" },
+    { name: "Mr. Paul J. Chakola ", role: "Placement Director", institution: "Vidya Academy of Science & Technology" },
+    { name: "Mr. Ramesh K. V.", role: "Asso. Professor, Phy. Edu.", institution: "Vidya Academy of Science & Technology" },
+    { name: "Mr. Girish Kumar P.C.", role: "Librarian", institution: "Vidya Academy of Science & Technology" },
+    { name: "Mr. Surendran V. K.", role: "Manager, General Administration ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Mr. Manesh D.", role: "Asst. Professor, MCA ", institution: "Vidya Academy of Science & Technology" },
 ];
 
 const TECHNICAL_COMMITTEE = [
-    { name: "Dr. Sreekanth K. J", role: "Research Scientist", institution: "Kuwait Institute for Scientific Research, Kuwait" },
+    { name: "Dr. Sreekanth K. J.", role: "Research Scientist", institution: "Kuwait Institute for Scientific Research, Kuwait" },
     { name: "Dr. Anna Charly", role: "Faculty of Science and Engineering", institution: "University of Liverpool, U.K." },
-    { name: "Dr. Harigovindan V. P", role: "Professor & Dean", institution: "NIT Puducherry, India" },
+    { name: "Dr. Harigovindan V. P.", role: "Professor & Dean", institution: "NIT Puducherry, India" },
     { name: "Dr. Sudha Balagopalan", role: "Professor, EEE, Director (Outreach & Professional Development)", institution: "Christ College of Engineering" },
-    { name: "Dr. Sachin Kumar S", role: "Asst. Professor and Research Head", institution: "Amrita School of Artificial Intelligence, Coimbatore, India" },
+    { name: "Dr. Sachin Kumar S.", role: "Asst. Professor and Research Head", institution: "Amrita School of Artificial Intelligence, Coimbatore, India" },
     { name: "Dr. Nithin Padmanabhan", role: "Senior Research Engineer", institution: "Electric Power Research Institute (EPRI), Canada" },
-    { name: "Dr. Sooraj K Prabha", role: "Professor, Department of Mechanical Engineering", institution: "Vidya Academy of Science and Technology, Thrissur" },
+    { name: "Dr. Sooraj K. Prabha", role: "Professor, Department of Mechanical Engineering", institution: "Vidya Academy of Science and Technology, Thrissur" },
+    { name: "Dr. Jeeva K. A.", role: "HoD, AI & ML ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Reji C. Joy", role: "HoD, MCA ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Sajay K. R.", role: "HoD, CSE ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Rakesh Hari", role: "HoD, ME ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. S. Swapna Kumar", role: "HoD, ECE ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Mary P. Varghese", role: "HoD, EEE ", institution: "Vidya Academy of Science & Technology" },
+    { name: "Dr. Abhilasha P. S.", role: "HoD, CE ", institution: "Vidya Academy of Science & Technology" },
 ];
 
 const ADVISORY_COMMITTEE = [
@@ -123,17 +143,24 @@ const ADVISORY_COMMITTEE = [
     { name: "Dr. Toby Cumberbatch", role: "Chair, IEEE Smart Village Education Committee", institution: "" },
     { name: "Dr. Padmakumar Nair", role: "Vice Chancellor", institution: "Thapar Institute of Engineering and Technology, Punjab, India" },
     { name: "Dr. Shashi Nambisan", role: "Director, Transportation Research Center; Professor of Civil Engineering", institution: "University of Nevada–Las Vegas, USA" },
-    { name: "Pramodkumar Karunalayam", role: "Digital Transformation Evangelist, AI Strategist", institution: "Philip Morris, Japan" },
+    { name: "Mr. Pramodkumar Karunalayam", role: "Digital Transformation Evangelist, AI Strategist", institution: "Philip Morris, Japan" },
     { name: "Dr. Digvijay S. Pawar", role: "Associate Professor", institution: "IIT Hyderabad" },
     { name: "Dr. Achuthsankar S. Nair", role: "Former Professor and Head, Dept. of Bioinformatics", institution: "University of Kerala, India" },
-    { name: "Prof. Gayathri Bharathan", role: "Assistant Professor, Optics and Photonics Centre", institution: "IIIT Delhi" },
-    { name: "Sri. Laj Lal", role: "Build Engineer", institution: "Apple, Japan" },
+    { name: "Dr. Gayathri Bharathan", role: "Assistant Professor, Optics and Photonics Centre", institution: "IIT Delhi" },
+    { name: "Dr. P. Pratapachandran Nair", role: "Former Principal & Professor Emeritus", institution: "VAST" },
     { name: "Dr. A. Jaya", role: "Professor & Director (CDOE)", institution: "BSAR Crescent Institute of Science and Technology, Chennai" },
-    { name: "Dr. Harigovindan V. P", role: "Professor & Dean", institution: "NIT Puducherry" },
-    { name: "Sri. Zaher Abdulrahman", role: "Electronics Lead Engineer", institution: "Jaguar Land Rover Ltd., Germany" },
+    { name: "Mr. Laj Lal", role: "Build Engineer", institution: "Apple, Japan" },
     { name: "Dr. Shailesh Sivan", role: "Principal AI Architect", institution: "University of Madras" },
-    { name: "Dr. V N Krishnachandran", role: "Professor Emeritus", institution: "Sreepathy Institute of Management and Technology, Palakkad" },
-    { name: "Dr. Soman K. P", role: "Dean, School of Artificial Intelligence", institution: "Amrita Viswa Vidyapeetham, Coimbatore" },
+    { name: "Dr. V. N. Krishnachandran", role: "Professor Emeritus", institution: "Sreepathy Institute of Management and Technology, Palakkad" },
+    { name: "Dr. Soman K. P.", role: "Dean, School of Artificial Intelligence", institution: "Amrita Viswa Vidyapeetham, Coimbatore" },
+    { name: "Dr. Harigovindan V. P.", role: "Professor & Dean", institution: "NIT Puducherry" },
+    { name: "Mr. Zaher Abdulrahman", role: "Electronics Lead Engineer", institution: "Jaguar Land Rover Ltd., Germany" },
+];
+
+const EDITORIAL_BOARD = [
+    { name: "Dr. Sreekanth K. J.", role: "Research Scientist", institution: "Kuwait Institute for Scientific Research, Kuwait" },
+    { name: "Dr. Sooraj K. Prabha", role: "Professor, Department of Mechanical Engineering", institution: "Vidya Academy of Science and Technology, Thrissur" },
+    { name: "Dr. Siju K. C", role: "Professor, Department of Applied Science", institution: "Vidya Academy of Science and Technology, Thrissur" }
 ];
 
 // ========================================
@@ -143,7 +170,7 @@ const ADVISORY_COMMITTEE = [
 function renderDates() {
     const container = document.getElementById('dates-container');
     if (!container) return;
-    
+
     container.innerHTML = IMPORTANT_DATES.map(item => `
         <div class="p-6 bg-white dark:bg-white/5 border border-slate-200 dark:border-white/10 rounded-xl hover:border-primary transition-colors group">
             <div class="text-xs font-bold uppercase tracking-wider text-primary mb-2 opacity-60 group-hover:opacity-100">${item.title}</div>
@@ -176,6 +203,7 @@ function renderCommittee(type) {
         organizing: { id: 'organizing-grid', data: ORGANIZING_COMMITTEE },
         technical: { id: 'technical-grid', data: TECHNICAL_COMMITTEE },
         advisory: { id: 'advisory-grid', data: ADVISORY_COMMITTEE },
+        editorial: { id: 'editorial-grid', data: EDITORIAL_BOARD },
         patrons: { id: 'patrons-grid', data: PATRONS },
     };
 
@@ -236,15 +264,15 @@ function updateCountdown() {
     const eventDate = new Date(TARGET_DATE).getTime();
     const now = new Date().getTime();
     const distance = eventDate - now;
-    
+
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
     const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
+
     ['days', 'hours', 'minutes', 'seconds'].forEach((id, i) => {
         const el = document.getElementById(id);
-        if(el) el.textContent = String(Math.max(0, [days,hours,minutes,seconds][i])).padStart(2, '0');
+        if (el) el.textContent = String(Math.max(0, [days, hours, minutes, seconds][i])).padStart(2, '0');
     });
 }
 
@@ -287,6 +315,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderCommittee('organizing');
     renderCommittee('technical');
     renderCommittee('advisory');
+    renderCommittee('editorial');
     renderCommittee('patrons');
 
     // Logic
@@ -294,12 +323,12 @@ document.addEventListener('DOMContentLoaded', () => {
     setInterval(updateCountdown, 1000);
     setupScheduleTabs();
     setupCommitteeTabs();
-    
+
     // Mobile Menu
     const menuBtn = document.getElementById('mobile-menu-btn');
     const menu = document.getElementById('mobile-menu');
     const backdrop = document.getElementById('mobile-menu-backdrop');
-    
+
     function toggleMobileMenu() {
         const isHidden = menu.classList.contains('hidden');
         if (isHidden) {
@@ -314,16 +343,16 @@ document.addEventListener('DOMContentLoaded', () => {
             document.body.style.overflow = ''; // Restore scrolling
         }
     }
-    
-    if(menuBtn) {
+
+    if (menuBtn) {
         menuBtn.addEventListener('click', toggleMobileMenu);
     }
-    
+
     // Close menu when clicking backdrop
-    if(backdrop) {
+    if (backdrop) {
         backdrop.addEventListener('click', toggleMobileMenu);
     }
-    
+
     // Close menu when clicking menu links
     const menuLinks = menu?.querySelectorAll('a');
     menuLinks?.forEach(link => {
@@ -342,5 +371,5 @@ document.addEventListener('DOMContentLoaded', () => {
         bannerEl.textContent = repeated;
     }
 
-    
+
 });
