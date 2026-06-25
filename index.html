@@ -63,8 +63,6 @@
             <a class="text-base font-medium hover:text-primary" href="#schedule">Schedule</a>
             <a class="text-base font-medium hover:text-primary" href="#committee">Committee</a>
             <a class="text-base font-medium hover:text-primary" href="#authors">Author Guidelines</a>
-            <a href="https://cmt3.research.microsoft.com/ICISST2026" target="_blank" rel="noopener noreferrer"
-                class="bg-primary text-white w-full py-3 rounded-lg font-bold text-center block">Submit Paper</a>
         </div>
     </header>
 
@@ -95,15 +93,6 @@
                         Sustainability.
                     </p>
                     <div class="flex flex-wrap gap-4">
-                        <a href="https://cmt3.research.microsoft.com/ICISST2026" target="_blank"
-                            rel="noopener noreferrer"
-                            class="bg-primary text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-lg hover:shadow-primary/20 transition-all inline-flex items-center justify-center">
-                            Submit Paper
-                        </a>
-                        <a href="https://forms.gle/ch3EMxYAmb1XBXV3A" target="_blank" rel="noopener noreferrer"
-                            class="bg-primary text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-lg hover:shadow-primary/20 transition-all inline-flex items-center justify-center">
-                            Author Registration
-                        </a>
                         <a href="assets/Conference_ICISST_june26_Brochure.pdf" target="_blank" rel="noopener noreferrer"
                             class="bg-white dark:bg-white/5 border border-slate-200 dark:border-white/10 px-8 py-4 rounded-xl font-bold text-lg hover:bg-slate-50 transition-colors inline-flex items-center justify-center">
                             Download Brochure
@@ -318,15 +307,7 @@
                         </p>
                     </div>
 
-                    <div class="mt-10 flex justify-center">
-                        <a href="https://cmt3.research.microsoft.com/ICISST2026" target="_blank"
-                            rel="noopener noreferrer"
-                            class="bg-primary text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-lg hover:shadow-primary/20 transition-all inline-flex items-center justify-center gap-2 group">
-                            Submit Your Paper
-                            <span
-                                class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
-                        </a>
-                    </div>
+
                 </div>
             </div>
         </section>
@@ -615,67 +596,378 @@
         </section>
 
         <section class="py-24 px-6 bg-background-light dark:bg-background-dark" id="schedule">
-            <div class="max-w-4xl mx-auto">
+            <div class="max-w-6xl mx-auto">
                 <div class="text-center mb-12">
-                    <h2 class="text-4xl font-black mb-4">Event Schedule</h2>
-                    <p class="opacity-60 max-w-2xl mx-auto">( Will be updated soon. )</p>
-                    <div class="flex justify-center gap-4 mt-8">
-                        <button class="schedule-btn active px-6 py-2 bg-primary text-white rounded-full font-bold"
-                            data-day="1">Day 1 (June 26)</button>
+                    <h2 class="text-4xl font-black mb-4 uppercase tracking-wide">Programme Schedule</h2>
+                    <p class="opacity-60 max-w-2xl mx-auto">Join us for two days of insightful sessions.</p>
+                    <div class="flex flex-wrap justify-center gap-3 mt-10">
                         <button
-                            class="schedule-btn px-6 py-2 bg-slate-100 dark:bg-white/5 rounded-full font-bold hover:bg-slate-200"
-                            data-day="2">Day 2 (June 27)</button>
+                            class="schedule-btn active px-6 py-2.5 bg-primary text-white rounded-full font-bold text-sm uppercase tracking-wider shadow-md"
+                            data-day="inauguration">Inauguration</button>
+                        <button
+                            class="schedule-btn px-6 py-2.5 bg-slate-100 dark:bg-white/5 rounded-full font-bold text-sm uppercase tracking-wider hover:bg-slate-200 transition-colors"
+                            data-day="1">Day 1 Schedule</button>
+                        <button
+                            class="schedule-btn px-6 py-2.5 bg-slate-100 dark:bg-white/5 rounded-full font-bold text-sm uppercase tracking-wider hover:bg-slate-200 transition-colors"
+                            data-day="2">Day 2 Schedule</button>
                     </div>
                 </div>
 
-                <div id="schedule-day-1" class="schedule-content space-y-6">
-                    <!-- <div
-                        class="flex gap-6 p-6 bg-slate-50 dark:bg-white/5 rounded-2xl items-start border-l-4 border-primary">
-                        <div class="w-24 shrink-0 text-right">
-                            <div class="text-xl font-black">10:00</div>
-                            <div class="text-xs font-bold opacity-40 uppercase">AM</div>
-                        </div>
-                        <div>
-                            <h4 class="text-lg font-bold mb-1">Inauguration & Keynote</h4>
-                            <p class="text-sm opacity-60 mb-3">Main Auditorium</p>
-                        </div>
-                    </div> -->
+                <!-- Inauguration -->
+                <div id="schedule-day-inauguration" class="schedule-content">
                     <div
-                        class="flex gap-6 p-6 bg-white dark:bg-white/10 rounded-2xl items-start border-l-4 border-slate-200 dark:border-white/10">
-                        <!-- <div class="w-24 shrink-0 text-right">
-                            <div class="text-xl font-black">11:00</div>
-                            <div class="text-xs font-bold opacity-40 uppercase">AM</div>
-                        </div> -->
-                        <div>
-                            <h4 class="text-lg font-bold mb-1">Will be updated soon</h4>
-                            <!-- <p class="text-sm opacity-60 mb-3">Paper Presentations - Track 1</p> -->
+                        class="w-full bg-white dark:bg-white/5 rounded-3xl p-6 md:p-10 shadow-sm border border-slate-200 dark:border-white/10">
+                        <div
+                            class="flex flex-col md:flex-row border-b-2 border-primary/20 dark:border-white/20 pb-4 mb-4 font-bold text-xs md:text-sm uppercase tracking-wider opacity-60 hidden md:flex">
+                            <div class="md:w-[30%]">Programme</div>
+                            <div class="md:w-[70%]">Resource Person / Details</div>
+                        </div>
+
+                        <!-- 1 -->
+                        <div
+                            class="group flex flex-col md:flex-row py-5 md:py-6 border-b border-slate-100 dark:border-white/5 hover:bg-slate-50 dark:hover:bg-white/5 transition-colors rounded-xl px-4 -mx-4">
+                            <div class="md:w-[30%] font-bold text-lg md:text-xl text-primary flex items-center">
+                                Prayer
+                            </div>
+                            <div class="md:w-[70%] flex items-center mt-2 md:mt-0">
+                                <div>
+                                    <div class="font-bold text-slate-900 dark:text-white text-[17px]">Ms. Akhila R</div>
+                                    <div class="text-sm font-medium opacity-70 mt-0.5">Asst. Prof, Dept. of EEE, VAST
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 2 -->
+                        <div
+                            class="group flex flex-col md:flex-row py-5 md:py-6 border-b border-slate-100 dark:border-white/5 hover:bg-slate-50 dark:hover:bg-white/5 transition-colors rounded-xl px-4 -mx-4">
+                            <div class="md:w-[30%] font-bold text-lg md:text-xl text-primary flex items-center">
+                                Welcome Address
+                            </div>
+                            <div class="md:w-[70%] flex items-center mt-2 md:mt-0">
+                                <div>
+                                    <div class="font-bold text-slate-900 dark:text-white text-[17px]">Dr. Jeeva K A
+                                    </div>
+                                    <div class="text-sm font-medium opacity-70 mt-0.5">Conference Coordinator, Professor
+                                        and HoD, Dept. of AIML, VAST</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 3 -->
+                        <div
+                            class="group flex flex-col md:flex-row py-5 md:py-6 border-b border-slate-100 dark:border-white/5 hover:bg-slate-50 dark:hover:bg-white/5 transition-colors rounded-xl px-4 -mx-4">
+                            <div class="md:w-[30%] font-bold text-lg md:text-xl text-primary flex items-center">
+                                Presidential Address
+                            </div>
+                            <div class="md:w-[70%] flex items-center mt-2 md:mt-0">
+                                <div>
+                                    <div class="font-bold text-slate-900 dark:text-white text-[17px]">Dr. Sunitha C.
+                                    </div>
+                                    <div class="text-sm font-medium opacity-70 mt-0.5">Principal, VAST</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 4 Inauguration & Inaugural Address - highlight! -->
+                        <div
+                            class="group flex flex-col md:flex-row py-6 md:py-8 border border-primary/30 shadow-lg shadow-primary/10 transition-colors rounded-2xl px-6 md:px-8 -mx-4 md:-mx-8 bg-gradient-to-br from-primary/10 via-primary/5 to-transparent relative overflow-hidden my-4">
+                            <div
+                                class="absolute top-0 right-0 bg-primary text-white text-[10px] md:text-xs font-bold px-3 py-1 rounded-bl-lg uppercase tracking-wider shadow-sm">
+                                Chief Guest</div>
+                            <div
+                                class="md:w-[30%] font-black text-xl md:text-2xl text-primary flex items-center leading-tight">
+                                Inauguration & <br class="hidden md:block">Inaugural Address
+                            </div>
+                            <div class="md:w-[70%] flex items-center mt-5 md:mt-0">
+                                <div
+                                    class="flex items-center gap-4 md:gap-5 bg-white dark:bg-slate-800 p-3 md:p-4 rounded-2xl shadow-sm border border-primary/20 w-full md:w-auto">
+                                    <img src="assets/sekhar-iit.jpeg"
+                                        class="w-16 h-16 md:w-20 md:h-20 rounded-xl object-cover shadow-md border border-primary/20 shrink-0">
+                                    <div>
+                                        <div class="font-black text-slate-900 dark:text-white text-lg md:text-xl">Prof.
+                                            A. Seshadri Sekhar</div>
+                                        <div class="text-sm md:text-base font-bold opacity-90 text-primary mt-1">
+                                            Director, IIT Palakkad</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 5 -->
+                        <div
+                            class="group flex flex-col md:flex-row py-5 md:py-6 border-b border-slate-100 dark:border-white/5 hover:bg-slate-50 dark:hover:bg-white/5 transition-colors rounded-xl px-4 -mx-4">
+                            <div class="md:w-[30%] font-bold text-lg md:text-xl text-primary flex items-center">
+                                Special Address
+                            </div>
+                            <div class="md:w-[70%] flex items-center mt-2 md:mt-0">
+                                <div>
+                                    <div class="font-bold text-slate-900 dark:text-white text-[17px]">Mr. Thilakan K K
+                                    </div>
+                                    <div class="text-sm font-medium opacity-70 mt-0.5">Vice Chairman, VICT</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 6 -->
+                        <div
+                            class="group flex flex-col md:flex-row py-5 md:py-6 border-b border-slate-100 dark:border-white/5 hover:bg-slate-50 dark:hover:bg-white/5 transition-colors rounded-xl px-4 -mx-4">
+                            <div class="md:w-[30%] font-bold text-lg md:text-xl text-primary flex items-center">
+                                Felicitation
+                            </div>
+                            <div class="md:w-[70%] flex flex-col gap-4 mt-2 md:mt-0">
+                                <div>
+                                    <div class="font-bold text-slate-900 dark:text-white text-[17px]">Dr. Shalij P R
+                                    </div>
+                                    <div class="text-sm font-medium opacity-70 mt-0.5">Academic Director, VICT</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 7 -->
+                        <div
+                            class="group flex flex-col md:flex-row py-5 md:py-6 border-b border-slate-100 dark:border-white/5 hover:bg-slate-50 dark:hover:bg-white/5 transition-colors rounded-xl px-4 -mx-4">
+                            <div class="md:w-[30%] font-bold text-lg md:text-xl text-primary flex items-center">
+                                Felicitation
+                            </div>
+                            <div class="md:w-[70%] flex flex-col gap-4 mt-2 md:mt-0">
+                                <div>
+                                    <div class="font-bold text-slate-900 dark:text-white text-[17px]">Mr. Suresh Lal
+                                    </div>
+                                    <div class="text-sm font-medium opacity-70 mt-0.5">Executive Director, VICT</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 8 -->
+                        <div
+                            class="group flex flex-col md:flex-row py-5 md:py-6 border-b border-slate-100 dark:border-white/5 hover:bg-slate-50 dark:hover:bg-white/5 transition-colors rounded-xl px-4 -mx-4">
+                            <div class="md:w-[30%] font-bold text-lg md:text-xl text-primary flex items-center">
+                                Felicitation
+                            </div>
+                            <div class="md:w-[70%] flex flex-col gap-4 mt-2 md:mt-0">
+                                <div>
+                                    <div class="font-bold text-slate-900 dark:text-white text-[17px]">Mr. Unnirajan P N
+                                    </div>
+                                    <div class="text-sm font-medium opacity-70 mt-0.5">Director Administration, VICT
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 9 -->
+                        <div
+                            class="group flex flex-col md:flex-row py-5 md:py-6 hover:bg-slate-50 dark:hover:bg-white/5 transition-colors rounded-xl px-4 -mx-4">
+                            <div class="md:w-[30%] font-bold text-lg md:text-xl text-primary flex items-center">
+                                Vote of Thanks
+                            </div>
+                            <div class="md:w-[70%] flex items-center mt-2 md:mt-0">
+                                <div>
+                                    <div class="font-bold text-slate-900 dark:text-white text-[17px]">Dr. Reji C Joy
+                                    </div>
+                                    <div class="text-sm font-medium opacity-70 mt-0.5">Conference Coordinator, Professor
+                                        and HoD, Dept. of MCA, VAST</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div id="schedule-day-2" class="schedule-content space-y-6 hidden">
+                <!-- Day 1 Schedule -->
+                <div id="schedule-day-1" class="schedule-content hidden">
                     <div
-                        class="flex gap-6 p-6 bg-slate-50 dark:bg-white/5 rounded-2xl items-start border-l-4 border-primary">
-                        <!-- <div class="w-24 shrink-0 text-right">
-                             <div class="text-xl font-black">09:30</div>
-                            <div class="text-xs font-bold opacity-40 uppercase">AM</div>
-                        </div> -->
-                        <div>
-                            <h4 class="text-lg font-bold mb-1">Will be updated soon</h4>
-                            <!-- <p class="text-sm opacity-60 mb-3">Seminar Hall</p> -->
+                        class="w-full bg-white dark:bg-white/5 rounded-3xl p-6 md:p-10 shadow-sm border border-slate-200 dark:border-white/10">
+                        <div
+                            class="flex flex-col md:flex-row border-b-2 border-primary/20 dark:border-white/20 pb-4 mb-4 font-bold text-xs md:text-sm uppercase tracking-wider opacity-60 hidden md:flex">
+                            <div class="md:w-[25%]">Time</div>
+                            <div class="md:w-[35%]">Programme</div>
+                            <div class="md:w-[40%]">Resource Person</div>
+                        </div>
+
+                        <!-- 1 -->
+                        <div
+                            class="group flex flex-col md:flex-row py-6 md:py-8 border border-primary/30 shadow-lg shadow-primary/10 transition-colors rounded-2xl px-6 md:px-8 -mx-4 md:-mx-8 bg-gradient-to-br from-primary/10 via-primary/5 to-transparent relative overflow-hidden my-4">
+                            <div
+                                class="absolute top-0 right-0 bg-primary text-white text-[10px] md:text-xs font-bold px-3 py-1 rounded-bl-lg uppercase tracking-wider shadow-sm">
+                                Chief Guest</div>
+                            <div class="md:w-[25%] flex items-center mt-1 md:mt-0 mb-4 md:mb-0">
+                                <div
+                                    class="text-[13px] md:text-sm font-bold tracking-wider uppercase text-primary bg-primary/10 px-3 py-1.5 rounded-lg whitespace-nowrap border border-primary/20 shadow-sm">
+                                    09:30 AM <span class="opacity-50 mx-1">—</span> 10:30 AM
+                                </div>
+                            </div>
+                            <div
+                                class="md:w-[35%] flex items-center mt-4 md:mt-0 font-black text-slate-900 dark:text-white text-lg md:text-xl pr-4 leading-tight">
+                                Inauguration and <br class="hidden xl:block">Inaugural address
+                            </div>
+                            <div class="md:w-[40%] flex items-center mt-4 md:mt-0">
+                                <div
+                                    class="flex items-center gap-4 md:gap-5 bg-white dark:bg-slate-800 p-3 md:p-4 rounded-2xl shadow-sm border border-primary/20 w-full md:w-auto">
+                                    <img src="assets/sekhar-iit.jpeg"
+                                        class="w-14 h-14 md:w-16 md:h-16 rounded-xl object-cover shadow-md border border-primary/20 shrink-0 hidden sm:block">
+                                    <div>
+                                        <div class="font-black text-slate-900 dark:text-white text-[17px] md:text-lg">
+                                            Prof. A. Seshadri Sekhar</div>
+                                        <div
+                                            class="text-sm md:text-base font-bold opacity-90 text-primary mt-1 leading-tight">
+                                            Director, IIT Palakkad, India</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 2 -->
+                        <div
+                            class="group flex flex-col md:flex-row py-5 md:py-6 border-b border-slate-100 dark:border-white/5 hover:bg-slate-50 dark:hover:bg-white/5 transition-colors rounded-xl px-4 -mx-4">
+                            <div class="md:w-[25%] flex items-center mt-1 md:mt-0 mb-4 md:mb-0">
+                                <div
+                                    class="text-[13px] md:text-sm font-bold tracking-wider uppercase text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-white/10 px-3 py-1.5 rounded-lg whitespace-nowrap border border-slate-200 dark:border-white/5">
+                                    11:15 AM <span class="opacity-50 mx-1">—</span> 12:30 PM
+                                </div>
+                            </div>
+                            <div
+                                class="md:w-[35%] flex items-center mt-2 md:mt-0 font-bold text-slate-900 dark:text-white text-lg pr-4">
+                                Keynote Address
+                            </div>
+                            <div class="md:w-[40%] flex items-center mt-4 md:mt-0">
+                                <div>
+                                    <div class="font-bold text-slate-900 dark:text-white text-[16px]">Dr. Sreekanth K.
+                                        J.</div>
+                                    <div class="text-sm font-medium opacity-70 mt-0.5">Research Scientist, Kuwait
+                                        Institute for Scientific Research, Kuwait</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- 4 -->
+                        <div
+                            class="group flex flex-col md:flex-row py-5 md:py-6 border-b border-slate-100 dark:border-white/5 hover:bg-slate-50 dark:hover:bg-white/5 transition-colors rounded-xl px-4 -mx-4">
+                            <div class="md:w-[25%] flex items-center mt-1 md:mt-0 mb-4 md:mb-0">
+                                <div
+                                    class="text-[13px] md:text-sm font-bold tracking-wider uppercase text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-white/10 px-3 py-1.5 rounded-lg whitespace-nowrap border border-slate-200 dark:border-white/5">
+                                    02:00 PM <span class="opacity-50 mx-1">—</span> 03:30 PM
+                                </div>
+                            </div>
+                            <div
+                                class="md:w-[35%] flex items-center mt-2 md:mt-0 font-bold text-slate-900 dark:text-white text-lg pr-4">
+                                Keynote Address
+                            </div>
+                            <div class="md:w-[40%] flex items-center mt-4 md:mt-0">
+                                <div>
+                                    <div class="font-bold text-slate-900 dark:text-white text-[16px]">Dr. Soman K. P.
+                                    </div>
+                                    <div class="text-sm font-medium opacity-70 mt-0.5">Dean, School of Artificial
+                                        Intelligence, Amrita Viswa Vidyapeetham, Coimbatore, India</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 5 -->
+                        <div
+                            class="group flex flex-col md:flex-row py-5 md:py-6 hover:bg-slate-50 dark:hover:bg-white/5 transition-colors rounded-xl px-4 -mx-4">
+                            <div class="md:w-[25%] flex items-center mt-1 md:mt-0 mb-4 md:mb-0">
+                                <div
+                                    class="text-[13px] md:text-sm font-bold tracking-wider uppercase text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-white/10 px-3 py-1.5 rounded-lg whitespace-nowrap border border-slate-200 dark:border-white/5">
+                                    03:30 PM <span class="opacity-50 mx-1">—</span> 05:00 PM
+                                </div>
+                            </div>
+                            <div
+                                class="md:w-[75%] flex items-center mt-2 md:mt-0 font-bold text-slate-900 dark:text-white text-lg">
+                                Paper presentations
+                            </div>
                         </div>
                     </div>
-                    <!-- <div
-                        class="flex gap-6 p-6 bg-white dark:bg-white/10 rounded-2xl items-start border-l-4 border-slate-200 dark:border-white/10">
-                        <div class="w-24 shrink-0 text-right">
-                            <div class="text-xl font-black">03:00</div>
-                            <div class="text-xs font-bold opacity-40 uppercase">PM</div>
+                </div>
+
+                <!-- Day 2 Schedule -->
+                <div id="schedule-day-2" class="schedule-content hidden">
+                    <div
+                        class="w-full bg-white dark:bg-white/5 rounded-3xl p-6 md:p-10 shadow-sm border border-slate-200 dark:border-white/10">
+                        <div
+                            class="flex flex-col md:flex-row border-b-2 border-primary/20 dark:border-white/20 pb-4 mb-4 font-bold text-xs md:text-sm uppercase tracking-wider opacity-60 hidden md:flex">
+                            <div class="md:w-[25%]">Time</div>
+                            <div class="md:w-[35%]">Programme</div>
+                            <div class="md:w-[40%]">Resource Person</div>
                         </div>
-                        <div>
-                            <h4 class="text-lg font-bold mb-1">Valedictory Function</h4>
-                            <p class="text-sm opacity-60 mb-3">Main Auditorium</p>
+
+                        <!-- 1 -->
+                        <div
+                            class="group flex flex-col md:flex-row py-5 md:py-6 border-b border-slate-100 dark:border-white/5 hover:bg-slate-50 dark:hover:bg-white/5 transition-colors rounded-xl px-4 -mx-4">
+                            <div class="md:w-[25%] flex items-center mt-1 md:mt-0 mb-4 md:mb-0">
+                                <div
+                                    class="text-[13px] md:text-sm font-bold tracking-wider uppercase text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-white/10 px-3 py-1.5 rounded-lg whitespace-nowrap border border-slate-200 dark:border-white/5">
+                                    09:30 AM <span class="opacity-50 mx-1">—</span> 11:00 AM
+                                </div>
+                            </div>
+                            <div
+                                class="md:w-[35%] flex items-center mt-2 md:mt-0 font-bold text-slate-900 dark:text-white text-lg pr-4">
+                                Keynote Address
+                            </div>
+                            <div class="md:w-[40%] flex items-center mt-4 md:mt-0">
+                                <div>
+                                    <div class="font-bold text-slate-900 dark:text-white text-[16px]">Dr. Krishna Mohan
+                                        K S</div>
+                                    <div class="text-sm font-medium opacity-70 mt-0.5">Assistant Professor, School of
+                                        Environmental Studies, Cochin University of Science and Technology, Kochi</div>
+                                </div>
+                            </div>
                         </div>
-                    </div> -->
+
+                        <!-- 2 -->
+                        <div
+                            class="group flex flex-col md:flex-row py-5 md:py-6 border-b border-slate-100 dark:border-white/5 hover:bg-slate-50 dark:hover:bg-white/5 transition-colors rounded-xl px-4 -mx-4">
+                            <div class="md:w-[25%] flex items-center mt-1 md:mt-0 mb-4 md:mb-0">
+                                <div
+                                    class="text-[13px] md:text-sm font-bold tracking-wider uppercase text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-white/10 px-3 py-1.5 rounded-lg whitespace-nowrap border border-slate-200 dark:border-white/5">
+                                    11:00 AM <span class="opacity-50 mx-1">—</span> 01:00 PM
+                                </div>
+                            </div>
+                            <div
+                                class="md:w-[75%] flex items-center mt-2 md:mt-0 font-bold text-slate-900 dark:text-white text-lg">
+                                Paper presentations
+                            </div>
+                        </div>
+
+
+                        <!-- 4 -->
+                        <div
+                            class="group flex flex-col md:flex-row py-5 md:py-6 border-b border-slate-100 dark:border-white/5 hover:bg-slate-50 dark:hover:bg-white/5 transition-colors rounded-xl px-4 -mx-4">
+                            <div class="md:w-[25%] flex items-center mt-1 md:mt-0 mb-4 md:mb-0">
+                                <div
+                                    class="text-[13px] md:text-sm font-bold tracking-wider uppercase text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-white/10 px-3 py-1.5 rounded-lg whitespace-nowrap border border-slate-200 dark:border-white/5">
+                                    02:00 PM <span class="opacity-50 mx-1">—</span> 03:30 PM
+                                </div>
+                            </div>
+                            <div
+                                class="md:w-[35%] flex items-center mt-2 md:mt-0 font-bold text-slate-900 dark:text-white text-lg pr-4">
+                                Keynote Address
+                            </div>
+                            <div class="md:w-[40%] flex items-center mt-4 md:mt-0">
+                                <div>
+                                    <div class="font-bold text-slate-900 dark:text-white text-[16px]">Dr. Padmakumar
+                                        Nair</div>
+                                    <div class="text-sm font-medium opacity-70 mt-0.5">Vice Chancellor, Thapar Institute
+                                        of Engineering and Technology, Punjab, India</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 5 -->
+                        <div
+                            class="group flex flex-col md:flex-row py-5 md:py-6 hover:bg-slate-50 dark:hover:bg-white/5 transition-colors rounded-xl px-4 -mx-4">
+                            <div class="md:w-[25%] flex items-center mt-1 md:mt-0 mb-4 md:mb-0">
+                                <div
+                                    class="text-[13px] md:text-sm font-bold tracking-wider uppercase text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-white/10 px-3 py-1.5 rounded-lg whitespace-nowrap border border-slate-200 dark:border-white/5">
+                                    03:30 PM <span class="opacity-50 mx-1">—</span> 04:00 PM
+                                </div>
+                            </div>
+                            <div
+                                class="md:w-[75%] flex items-center mt-2 md:mt-0 font-bold text-slate-900 dark:text-white text-lg">
+                                Valedictory function
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -796,24 +1088,6 @@
                                 <li>• Payment details will be shared with acceptance notification.</li>
                             </ul>
 
-                            <!-- <button class="mt-6 inline-flex items-center justify-center px-6 py-3 rounded-xl border-2 border-primary text-primary font-bold hover:bg-primary hover:text-white transition-colors"> -->
-                            <a href="https://cmt3.research.microsoft.com/ICISST2026" target="_blank"
-                                rel="noopener noreferrer"
-                                class="w-full py-3 rounded-xl bg-primary text-white font-bold shadow-lg shadow-primary/30 mt-10 inline-flex items-center justify-center">
-                                Submit Paper
-                            </a>
-                        </div>
-
-                        <div class="mt-10">
-                            <h4 class="font-bold mb-2">Author Registration</h4>
-                            <p class="text-sm opacity-70 mb-4">
-                                Author's whose papers are accepted in the upcoming conference (ICISST2026) are requested
-                                to complete the author registration through the following link.
-                            </p>
-                            <a href="https://forms.gle/ch3EMxYAmb1XBXV3A" target="_blank" rel="noopener noreferrer"
-                                class="w-full py-3 rounded-xl bg-primary text-white font-bold shadow-lg shadow-primary/30 inline-flex items-center justify-center transition-transform hover:-translate-y-1">
-                                Complete Author Registration
-                            </a>
                         </div>
                     </div>
                 </div>

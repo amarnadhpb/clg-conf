@@ -75,10 +75,10 @@ const SPEAKERS = [
         image: "assets/speakers/speaker8.jpeg"
     },
     {
-        name: "Dr. Achuthsankar S. Nair",
-        designation: "Former Professor & HOD of Bioinformatics,University of Kerala, India",
+        name: "Dr. Krishna Mohan K. S.",
+        designation: "Assistant Professor, School of Environmental Studies, Cochin University of Science and Technology, Kochi",
         topic: "Topic: Will be updated soon",
-        image: "assets/speakers/speaker6.png"
+        image: "assets/new speaker.jpeg"
     },
     {
         name: "Dr. Soman K. P.",
@@ -191,8 +191,7 @@ function renderSpeakers() {
             <div class="p-6 relative">
                 <h4 class="text-lg font-bold mb-1">${speaker.name}</h4>
                 <p class="text-xs uppercase font-bold text-primary mb-2 opacity-80">${speaker.designation}</p>
-                <div class="h-px w-full bg-slate-200 dark:bg-white/10 my-3"></div>
-                <p class="text-sm opacity-70 italic">"${speaker.topic}"</p>
+
             </div>
         </div>
     `).join('');
