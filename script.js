@@ -19,7 +19,7 @@ tailwind.config = {
 // 1. DATA CONFIGURATION (EDIT HERE)
 // ========================================
 
-const BANNER_MESSAGE = "  Call For Papers Open  ";
+const BANNER_MESSAGE = "  Call For Papers Closed  ";
 
 const IMPORTANT_DATES = [
     { title: "Call for Papers", date: "16 March 2026" },
